@@ -31,18 +31,13 @@ export default function App() {
   const set = (p: Partial<S>) => setS((x) => ({ ...x, ...p }));
   const [design, setDesign] = useState<string>(() => {
     try {
-      return new URLSearchParams(location.search).get('design') ?? localStorage.getItem('design') ?? 'a';
+      return new URLSearchParams(location.search).get('design') ?? 'b';
     } catch {
       return 'a';
     }
   });
   useEffect(() => {
     document.documentElement.dataset.design = design;
-    try {
-      localStorage.setItem('design', design);
-    } catch {
-      /* private mode */
-    }
   }, [design]);
   useEffect(() => {
     document.documentElement.style.setProperty('--ar-size', `${s.arSize}px`);
