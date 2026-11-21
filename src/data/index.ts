@@ -16,7 +16,7 @@ export type Ayah = { key: string; ayah: number; text: string; words: Word[] };
 export type RootInfo = {
   letters: string;
   count: number;
-  lemmas: { ar: string; kind: string; count: number; example: { loc: string; ar: string | null; gloss: string; translit: string } | null }[];
+  lemmas: { ar: string; kind: string; count: number; heading?: string; example: { loc: string; ar: string | null; gloss: string; translit: string } | null }[];
 };
 export type Surah = { n: number; ar: string; en: string; meaningEn: string; meaningUr: string; ayahs: number; words: number; juzAmma: boolean };
 
@@ -97,4 +97,10 @@ export const shuffle = <T,>(a: T[], seed = 1) => {
     [r[i], r[j]] = [r[j], r[i]];
   }
   return r;
+};
+
+/** The root's core sense, taken from the Quranic Arabic Corpus dictionary heading of its first verb form (e.g. "to have mercy"). */
+export const rootSense = (key: string) => {
+  const h = ROOTS[key]?.lemmas.find((l) => l.heading?.includes(' -'))?.heading;
+  return h ? h.slice(h.indexOf(' -') + 2).trim() : null;
 };

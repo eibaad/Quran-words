@@ -88,7 +88,7 @@ function fmt(ms: number) {
   return `${Math.round(d / 30)}mo`;
 }
 
-function GradeBar({ onGrade, isNew }: { onGrade: (g: Grade) => void; isNew: boolean }) {
+export function GradeBar({ onGrade, isNew }: { onGrade: (g: Grade) => void; isNew: boolean }) {
   const { s } = useSettings();
   const preview = useMemo(() => {
     const f = fsrs(generatorParameters({ request_retention: s.retention / 100 }));
@@ -120,7 +120,7 @@ function GradeBar({ onGrade, isNew }: { onGrade: (g: Grade) => void; isNew: bool
 }
 
 /* ---------------- Flip card (active recall, swipe to grade) ---------------- */
-function Flip({ w, isNew, onDone }: { w: Word; isNew: boolean; onDone: (ok: boolean) => void }) {
+export function Flip({ w, isNew, onDone }: { w: Word; isNew: boolean; onDone: (ok: boolean) => void }) {
   const [shown, setShown] = useState(false);
   const [dx, setDx] = useState(0);
   const start = useRef<number | null>(null);
@@ -184,7 +184,7 @@ function Flip({ w, isNew, onDone }: { w: Word; isNew: boolean; onDone: (ok: bool
 }
 
 /* ---------------- Feedback banner ---------------- */
-function Feedback({ ok, answer, onNext }: { ok: boolean; answer: Word | string; onNext: () => void }) {
+export function Feedback({ ok, answer, onNext }: { ok: boolean; answer: Word | string; onNext: () => void }) {
   return (
     <div
       className={cx(
@@ -378,7 +378,7 @@ function Match({ words, onDone }: { words: Word[]; onDone: (ok: boolean) => void
 }
 
 /* ---------------- Ayah builder ---------------- */
-function Builder({ ayah, onDone }: { ayah: number; onDone: (ok: boolean) => void }) {
+export function Builder({ ayah, onDone }: { ayah: number; onDone: (ok: boolean) => void }) {
   const a = AYAHS[ayah - 1];
   const pool = useMemo(() => shuffle(a.words, 4), [a]);
   const [order, setOrder] = useState<Word[]>([]);
@@ -429,7 +429,7 @@ function Builder({ ayah, onDone }: { ayah: number; onDone: (ok: boolean) => void
 }
 
 /* ---------------- Root detective ---------------- */
-function RootDetective({ known, rootKey, lemmaIdx, onDone }: { known: Word; rootKey: string; lemmaIdx: number; onDone: (ok: boolean) => void }) {
+export function RootDetective({ known, rootKey, lemmaIdx, onDone }: { known: Word; rootKey: string; lemmaIdx: number; onDone: (ok: boolean) => void }) {
   const r = ROOTS[rootKey];
   const target = r.lemmas[lemmaIdx];
   const ex = target.example!;

@@ -177,7 +177,7 @@ for (const [bw, r] of Object.entries(roots)) {
         const [s, v, w] = ex.loc.split(':').map(Number);
         exWord = { loc: ex.loc, ar: ayahWords(`${s}:${v}`)[w - 1] ?? null, gloss: ex.gloss, translit: ex.translit };
       }
-      return { ar: l.arabic, kind: l.kind, count: l.count, example: exWord };
+      return { ar: l.arabic, kind: l.kind, count: l.count, heading: l.heading, example: exWord };
     }),
   };
 }
