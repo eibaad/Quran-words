@@ -145,7 +145,7 @@ export function WordDetails({ w }: { w: Word }) {
         )}
         <span className="rounded-full bg-black/5 px-2.5 py-1 text-ink-soft dark:bg-white/10 dark:text-ink-darksoft">{w.loc}</span>
       </div>
-      <div className="flex flex-col gap-2 rounded-2xl bg-white p-4 shadow-card dark:bg-white/5">
+      <div className="flex flex-col gap-2 rounded-2xl bg-card p-4 shadow-card">
         <div className="flex items-center justify-between">
           <RootBadge w={w} />
           {r && <span className="text-xs text-ink-soft dark:text-ink-darksoft">{r.count.toLocaleString()}× · {r.lemmas.length} forms</span>}
@@ -231,7 +231,7 @@ export function Btn({
 
 export function Card({ children, className, onClick }: { children: ReactNode; className?: string; onClick?: () => void }) {
   return (
-    <div onClick={onClick} className={cx('rounded-3xl bg-white p-5 shadow-card dark:bg-white/5', className)}>
+    <div onClick={onClick} className={cx('rounded-3xl bg-card p-5 shadow-card', className)}>
       {children}
     </div>
   );
@@ -242,9 +242,23 @@ export function ScreenTitle({ title, sub, right }: { title: string; sub?: string
     <div className="mb-4 flex items-end justify-between gap-3 pt-2">
       <div>
         <h1 className="text-2xl font-bold tracking-tight">{title}</h1>
+        <Ornament />
         {sub && <p className="text-sm text-ink-soft dark:text-ink-darksoft">{sub}</p>}
       </div>
       {right}
     </div>
+  );
+}
+
+/** Gold rule with an eight-point star; only visible in the Mushaf design. */
+export function Ornament() {
+  return (
+    <span className="design-ornament my-1 flex items-center gap-2 text-gold-500" aria-hidden>
+      <span className="h-px w-10 bg-current opacity-60" />
+      <svg viewBox="0 0 20 20" className="h-3 w-3" fill="currentColor">
+        <path d="M10 0l2.4 5.6L18 3.2l-2.4 5.6L20 10l-4.4 1.2 2.4 5.6-5.6-2.4L10 20l-1.2-4.4-5.6 2.4 2.4-5.6L0 10l4.4-1.2L2 3.2l5.6 2.4z" />
+      </svg>
+      <span className="h-px w-10 bg-current opacity-60" />
+    </span>
   );
 }

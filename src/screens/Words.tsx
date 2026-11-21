@@ -30,14 +30,14 @@ export default function Words() {
         value={q}
         onChange={(e) => setQ(e.target.value)}
         placeholder="Search Arabic, English, Urdu or root…"
-        className="mb-3 w-full rounded-2xl border-0 bg-white px-4 py-3 shadow-card outline-none ring-teal-400 focus:ring-2 dark:bg-white/10"
+        className="mb-3 w-full rounded-2xl border-0 bg-card px-4 py-3 shadow-card outline-none ring-teal-400 focus:ring-2 dark:bg-white/10"
       />
       <div className="no-scrollbar -mx-4 mb-2 flex gap-2 overflow-x-auto px-4 pb-1">
         {(['all', 'new', 'learning', 'known'] as const).map((st) => (
           <button
             key={st}
             onClick={() => setStatus(st)}
-            className={cx('tap shrink-0 rounded-full px-3.5 py-1.5 text-sm font-medium', status === st ? 'bg-teal-600 text-white' : 'bg-white shadow-sm dark:bg-white/10')}
+            className={cx('tap shrink-0 rounded-full px-3.5 py-1.5 text-sm font-medium', status === st ? 'bg-teal-600 text-white' : 'bg-card shadow-sm dark:bg-white/10')}
           >
             {st === 'all' ? 'All' : STATUS_LABEL[st]}
           </button>
@@ -45,7 +45,7 @@ export default function Words() {
         <select
           value={root}
           onChange={(e) => setRoot(e.target.value)}
-          className="shrink-0 rounded-full bg-white px-3 py-1.5 text-sm shadow-sm dark:bg-white/10"
+          className="shrink-0 rounded-full bg-card px-3 py-1.5 text-sm shadow-sm dark:bg-white/10"
         >
           <option value="all">Any root</option>
           {rootsInSet.map((r) => (
@@ -54,11 +54,11 @@ export default function Words() {
             </option>
           ))}
         </select>
-        <select className="shrink-0 rounded-full bg-white px-3 py-1.5 text-sm shadow-sm dark:bg-white/10">
+        <select className="shrink-0 rounded-full bg-card px-3 py-1.5 text-sm shadow-sm dark:bg-white/10">
           <option>Al-Fatiha</option>
         </select>
       </div>
-      <div className="flex flex-col divide-y divide-black/5 overflow-hidden rounded-3xl bg-white shadow-card dark:divide-white/10 dark:bg-white/5">
+      <div className="flex flex-col divide-y divide-black/5 overflow-hidden rounded-3xl bg-card shadow-card dark:divide-white/10">
         {list.map((i) => {
           const st = statusOf(i.word);
           return (

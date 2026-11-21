@@ -148,14 +148,14 @@ function Flip({ w, isNew, onDone }: { w: Word; isNew: boolean; onDone: (ok: bool
         style={{ transform: `translateX(${dx}px) rotate(${dx / 25}deg)`, transition: start.current === null ? 'transform .25s' : 'none' }}
       >
         <div className={cx('flip-inner relative h-full min-h-[340px]', shown && 'flipped')}>
-          <div className="face absolute inset-0 flex flex-col items-center justify-center gap-6 rounded-3xl bg-white p-6 shadow-card dark:bg-white/5">
+          <div className="face absolute inset-0 flex flex-col items-center justify-center gap-6 rounded-3xl bg-card p-6 shadow-card">
             <span className="ar text-6xl text-teal-700 dark:text-teal-200" style={{ lineHeight: 1.8 }}>
               {w.ar}
             </span>
             <AyahContext w={w} scale={0.8} />
             <p className="text-sm text-ink-soft dark:text-ink-darksoft">What does the highlighted word mean? Say it to yourself first.</p>
           </div>
-          <div className="face back absolute inset-0 flex flex-col items-center justify-center gap-4 rounded-3xl bg-white p-6 text-center shadow-card dark:bg-white/5">
+          <div className="face back absolute inset-0 flex flex-col items-center justify-center gap-4 rounded-3xl bg-card p-6 text-center shadow-card">
             <div className="flex items-center gap-3">
               <PlayButton w={w} />
               <span className="ar text-5xl text-teal-700 dark:text-teal-200" style={{ lineHeight: 1.8 }}>
@@ -215,7 +215,7 @@ function Choices({ options, correct, onDone, render }: { options: Word[]; correc
             disabled={!!picked}
             onClick={() => setPicked(o.loc)}
             className={cx(
-              'tap rounded-2xl border-2 bg-white px-4 py-3.5 text-left shadow-sm dark:bg-white/5',
+              'tap rounded-2xl border-2 bg-card px-4 py-3.5 text-left shadow-sm',
               !picked && 'border-transparent hover:border-teal-200',
               picked && isAns && 'border-teal-500 bg-teal-50 dark:bg-teal-900',
               picked && isPick && !isAns && 'animate-shake border-rose-400 bg-rose-50 dark:bg-rose-900/30',
@@ -244,7 +244,7 @@ function Cloze({ w, onDone }: { w: Word; onDone: (ok: boolean) => void }) {
   const options = useMemo(() => shuffle([w, ...distractors(w, 3, 7)], 5), [w]);
   return (
     <div className="flex flex-1 flex-col gap-4">
-      <div className="rounded-3xl bg-white p-5 shadow-card dark:bg-white/5">
+      <div className="rounded-3xl bg-card p-5 shadow-card">
         <AyahContext w={w} hide={!shown} />
         <p className="mt-2 text-center text-sm text-ink-soft dark:text-ink-darksoft">Which word is hidden, and what does it mean?</p>
       </div>
@@ -288,7 +288,7 @@ function Listen({ w, onDone }: { w: Word; onDone: (ok: boolean) => void }) {
   }, [w]);
   return (
     <div className="flex flex-1 flex-col gap-5">
-      <div className="flex flex-col items-center gap-3 rounded-3xl bg-white p-6 shadow-card dark:bg-white/5">
+      <div className="flex flex-col items-center gap-3 rounded-3xl bg-card p-6 shadow-card">
         <PlayButton w={w} big />
         <p className="text-sm text-ink-soft dark:text-ink-darksoft">Listen, then pick the meaning</p>
       </div>
@@ -341,7 +341,7 @@ function Match({ words, onDone }: { words: Word[]; onDone: (ok: boolean) => void
                 playWord(w);
               }}
               className={cx(
-                'tap ar h-16 rounded-2xl border-2 bg-white text-2xl shadow-sm dark:bg-white/5',
+                'tap ar h-16 rounded-2xl border-2 bg-card text-2xl shadow-sm',
                 done.includes(w.loc) ? 'border-transparent opacity-30' : selL === w.loc ? 'border-teal-500 bg-teal-50 dark:bg-teal-900' : 'border-transparent',
               )}
               style={{ lineHeight: 1.4 }}
@@ -357,7 +357,7 @@ function Match({ words, onDone }: { words: Word[]; onDone: (ok: boolean) => void
               disabled={done.includes(w.loc)}
               onClick={() => tapR(w.loc)}
               className={cx(
-                'tap h-16 rounded-2xl border-2 bg-white px-2 text-sm shadow-sm dark:bg-white/5',
+                'tap h-16 rounded-2xl border-2 bg-card px-2 text-sm shadow-sm',
                 done.includes(w.loc) ? 'border-teal-500 bg-teal-50 opacity-40 dark:bg-teal-900' : wrong === w.loc ? 'animate-shake border-rose-400' : 'border-transparent',
               )}
             >
@@ -386,7 +386,7 @@ function Builder({ ayah, onDone }: { ayah: number; onDone: (ok: boolean) => void
   const ok = complete && order.every((w, i) => w.loc === a.words[i].loc);
   return (
     <div className="flex flex-1 flex-col gap-4">
-      <div className="rounded-3xl bg-white p-5 shadow-card dark:bg-white/5">
+      <div className="rounded-3xl bg-card p-5 shadow-card">
         <p className="ar text-center ar-size">
           {a.text} <span className="text-[0.6em] text-gold-500">﴿{a.ayah.toLocaleString('ar-EG')}﴾</span>
         </p>
@@ -412,7 +412,7 @@ function Builder({ ayah, onDone }: { ayah: number; onDone: (ok: boolean) => void
         {pool
           .filter((w) => !order.some((o) => o.loc === w.loc))
           .map((w) => (
-            <button key={w.loc} onClick={() => setOrder((o) => [...o, w])} className="tap rounded-xl bg-white px-3 py-2 text-sm shadow-sm dark:bg-white/10">
+            <button key={w.loc} onClick={() => setOrder((o) => [...o, w])} className="tap rounded-xl bg-card px-3 py-2 text-sm shadow-sm dark:bg-white/10">
               <Meaning w={w} size="sm" />
             </button>
           ))}
@@ -450,7 +450,7 @@ function RootDetective({ known, rootKey, lemmaIdx, onDone }: { known: Word; root
   const ok = picked === target.ar;
   return (
     <div className="flex flex-1 flex-col gap-4">
-      <div className="rounded-3xl bg-white p-5 shadow-card dark:bg-white/5">
+      <div className="rounded-3xl bg-card p-5 shadow-card">
         <div className="mb-3 flex items-center justify-between">
           <RootBadge w={known} />
           <span className="text-xs text-ink-soft">You know</span>
@@ -481,7 +481,7 @@ function RootDetective({ known, rootKey, lemmaIdx, onDone }: { known: Word; root
               disabled={!!picked}
               onClick={() => setPicked(o.ar)}
               className={cx(
-                'tap rounded-2xl border-2 bg-white px-4 py-3.5 text-left shadow-sm dark:bg-white/5',
+                'tap rounded-2xl border-2 bg-card px-4 py-3.5 text-left shadow-sm',
                 !picked && 'border-transparent',
                 picked && isAns && 'border-teal-500 bg-teal-50 dark:bg-teal-900',
                 picked && isPick && !isAns && 'animate-shake border-rose-400',
@@ -516,15 +516,15 @@ function Summary({ res, onExit }: { res: SessionResult; onExit: () => void }) {
         <p className="text-ink-soft dark:text-ink-darksoft">Barakallahu feek. See you tomorrow.</p>
       </div>
       <div className="grid w-full grid-cols-3 gap-3">
-        <div className="rounded-2xl bg-white p-4 shadow-card dark:bg-white/5">
+        <div className="rounded-2xl bg-card p-4 shadow-card">
           <div className="text-3xl font-bold text-teal-600">{res.learned.length}</div>
           <div className="text-xs text-ink-soft">new words</div>
         </div>
-        <div className="rounded-2xl bg-white p-4 shadow-card dark:bg-white/5">
+        <div className="rounded-2xl bg-card p-4 shadow-card">
           <div className="text-3xl font-bold text-teal-600">{acc}%</div>
           <div className="text-xs text-ink-soft">accuracy</div>
         </div>
-        <div className="rounded-2xl bg-white p-4 shadow-card dark:bg-white/5">
+        <div className="rounded-2xl bg-card p-4 shadow-card">
           <div className="text-3xl font-bold text-teal-600">{res.total}</div>
           <div className="text-xs text-ink-soft">exercises</div>
         </div>

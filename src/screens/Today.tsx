@@ -1,5 +1,5 @@
 import { DATA, ITEMS, quranCoverage, statusOf } from '../data';
-import { Btn, Card, useSettings } from '../ui';
+import { Btn, Card, Ornament, useSettings } from '../ui';
 
 export default function Today({ onStart, onSalah, onRead }: { onStart: () => void; onSalah: () => void; onRead: () => void }) {
   const { s } = useSettings();
@@ -17,6 +17,7 @@ export default function Today({ onStart, onSalah, onRead }: { onStart: () => voi
         <div>
           <p className="text-sm text-ink-soft dark:text-ink-darksoft">Assalamu alaykum</p>
           <h1 className="text-2xl font-bold tracking-tight">Today</h1>
+          <Ornament />
         </div>
         <div className="flex items-center gap-1.5 rounded-full bg-gold-100 px-3 py-1.5 text-sm font-semibold text-gold-700 dark:bg-gold-700/30 dark:text-gold-300">
           <span>🌱</span> 4 of the last 7 days
@@ -54,7 +55,7 @@ export default function Today({ onStart, onSalah, onRead }: { onStart: () => voi
           <div className="mt-2 flex justify-between">
             {days.map((d, i) => (
               <div key={i} className="flex flex-col items-center gap-1">
-                <div className={`h-6 w-6 rounded-full ${done[i] ? 'bg-teal-500' : 'bg-black/10 dark:bg-white/10'}`} />
+                <div className={`h-4 w-4 rounded-full ${done[i] ? 'bg-teal-500' : 'bg-black/10 dark:bg-white/10'}`} />
                 <span className="text-[10px] text-ink-soft dark:text-ink-darksoft">{d}</span>
               </div>
             ))}

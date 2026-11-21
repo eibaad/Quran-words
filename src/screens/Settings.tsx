@@ -62,7 +62,7 @@ export default function Settings() {
         <Row label="Meanings in">
           <div className="flex rounded-xl bg-teal-50 p-1 text-sm font-semibold dark:bg-teal-900">
             {(['en', 'ur', 'both'] as const).map((l) => (
-              <button key={l} onClick={() => set({ lang: l })} className={cx('tap rounded-lg px-3 py-1.5', s.lang === l && 'bg-white shadow dark:bg-teal-700')}>
+              <button key={l} onClick={() => set({ lang: l })} className={cx('tap rounded-lg px-3 py-1.5', s.lang === l && 'bg-card shadow dark:bg-teal-700')}>
                 {l === 'en' ? 'English' : l === 'ur' ? 'اردو' : 'Both'}
               </button>
             ))}
@@ -110,7 +110,7 @@ export default function Settings() {
             onClick={() => set({ matchTimer: !s.matchTimer })}
             className={cx('relative h-7 w-12 rounded-full transition-colors', s.matchTimer ? 'bg-teal-600' : 'bg-black/15 dark:bg-white/20')}
           >
-            <span className={cx('absolute top-0.5 h-6 w-6 rounded-full bg-white shadow transition-all', s.matchTimer ? 'left-[22px]' : 'left-0.5')} />
+            <span className={cx('absolute top-0.5 h-6 w-6 rounded-full bg-card shadow transition-all', s.matchTimer ? 'left-[22px]' : 'left-0.5')} />
           </button>
         </Row>
       </Card>

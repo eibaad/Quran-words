@@ -42,7 +42,7 @@ export default function Salah({ onExit }: { onExit: () => void }) {
                   key={x.n}
                   disabled={x.n !== 1}
                   onClick={() => setStage('read')}
-                  className={cx('tap flex items-center justify-between rounded-2xl bg-white p-4 text-left shadow-card dark:bg-white/5', x.n !== 1 && 'opacity-40')}
+                  className={cx('tap flex items-center justify-between rounded-2xl bg-card p-4 text-left shadow-card', x.n !== 1 && 'opacity-40')}
                 >
                   <div>
                     <div className="font-semibold">{x.en}</div>
@@ -65,7 +65,7 @@ export default function Salah({ onExit }: { onExit: () => void }) {
                 <span key={i} className={cx('h-1.5 rounded-full transition-all', i === ai ? 'w-6 bg-teal-600' : i < ai ? 'w-1.5 bg-teal-300' : 'w-1.5 bg-black/10 dark:bg-white/15')} />
               ))}
             </div>
-            <div className="flex-1 rounded-3xl bg-white p-5 shadow-card dark:bg-white/5">
+            <div className="flex-1 rounded-3xl bg-card p-5 shadow-card">
               <div dir="rtl" className="flex flex-wrap justify-center gap-x-4 gap-y-4">
                 {a.words.map((w) => (
                   <button key={w.loc} onClick={() => playWord(w)} className="tap flex flex-col items-center rounded-xl px-1">
@@ -98,7 +98,7 @@ export default function Salah({ onExit }: { onExit: () => void }) {
         {stage === 'quiz' && (
           <div key={qi} className="flex animate-pop flex-col gap-4">
             <div className="text-center text-xs font-semibold uppercase tracking-widest text-teal-600">Question {qi + 1} of 3</div>
-            <div className="rounded-3xl bg-white p-5 text-center shadow-card dark:bg-white/5">
+            <div className="rounded-3xl bg-card p-5 text-center shadow-card">
               <p className="text-sm text-ink-soft">When you recite this in salah, what are you saying?</p>
               <span className="ar block text-5xl text-teal-700 dark:text-teal-200" style={{ lineHeight: 2 }}>
                 {quiz[qi].w.ar}
@@ -117,7 +117,7 @@ export default function Salah({ onExit }: { onExit: () => void }) {
                       if (isAns) setScore((x) => x + 1);
                     }}
                     className={cx(
-                      'tap rounded-2xl border-2 bg-white px-4 py-3.5 text-left shadow-sm dark:bg-white/5',
+                      'tap rounded-2xl border-2 bg-card px-4 py-3.5 text-left shadow-sm',
                       !picked && 'border-transparent',
                       picked && isAns && 'border-teal-500 bg-teal-50 dark:bg-teal-900',
                       picked && isPick && !isAns && 'animate-shake border-rose-400',

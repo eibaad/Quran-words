@@ -29,12 +29,12 @@ export default function Progress() {
         <svg viewBox="0 0 300 104" className="mt-3 w-full" preserveAspectRatio="none">
           <defs>
             <linearGradient id="g" x1="0" x2="0" y1="0" y2="1">
-              <stop offset="0" stopColor="#2a8a79" stopOpacity=".35" />
-              <stop offset="1" stopColor="#2a8a79" stopOpacity="0" />
+              <stop offset="0" stopColor="rgb(var(--accent-500))" stopOpacity=".35" />
+              <stop offset="1" stopColor="rgb(var(--accent-500))" stopOpacity="0" />
             </linearGradient>
           </defs>
           <polygon points={`0,100 ${pts} 300,100`} fill="url(#g)" />
-          <polyline points={pts} fill="none" stroke="#2a8a79" strokeWidth="2.5" strokeLinejoin="round" strokeLinecap="round" />
+          <polyline points={pts} fill="none" stroke="rgb(var(--accent-500))" strokeWidth="2.5" strokeLinejoin="round" strokeLinecap="round" />
         </svg>
       </Card>
 
@@ -44,14 +44,14 @@ export default function Progress() {
           <div className="flex items-center gap-1 text-[10px] text-ink-soft">
             less
             {[0, 1, 2, 3, 4].map((l) => (
-              <span key={l} className="h-2.5 w-2.5 rounded-sm" style={{ background: l ? `rgba(42,138,121,${l / 4})` : 'rgba(127,127,127,.15)' }} />
+              <span key={l} className="h-2.5 w-2.5 rounded-sm" style={{ background: l ? `rgb(var(--accent-500) / ${l / 4})` : 'rgb(var(--ink-soft) / .15)' }} />
             ))}
             more
           </div>
         </div>
         <div className="grid grid-flow-col grid-rows-7 gap-1">
           {HEAT.map((l, i) => (
-            <span key={i} className="aspect-square rounded-[3px]" style={{ background: l ? `rgba(42,138,121,${l / 4})` : 'rgba(127,127,127,.15)' }} />
+            <span key={i} className="aspect-square rounded-[3px]" style={{ background: l ? `rgb(var(--accent-500) / ${l / 4})` : 'rgb(var(--ink-soft) / .15)' }} />
           ))}
         </div>
         <p className="mt-2 text-xs text-ink-soft">No streak counter to break. Every day you show up counts.</p>

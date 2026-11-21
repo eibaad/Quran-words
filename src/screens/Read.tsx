@@ -24,12 +24,12 @@ export default function Read() {
       <ScreenTitle
         title="Read"
         right={
-          <button onClick={() => setPicker(true)} className="tap rounded-full bg-white px-3 py-1.5 text-sm font-semibold shadow-card dark:bg-white/10">
+          <button onClick={() => setPicker(true)} className="tap rounded-full bg-card px-3 py-1.5 text-sm font-semibold shadow-card dark:bg-white/10">
             {sur.n}. {sur.en} ▾
           </button>
         }
       />
-      <div className="mb-4 rounded-3xl bg-white p-4 shadow-card dark:bg-white/5">
+      <div className="mb-4 rounded-3xl bg-card p-4 shadow-card">
         <div className="flex items-center justify-between">
           <div>
             <div className="text-sm text-ink-soft dark:text-ink-darksoft">You understand</div>
@@ -57,14 +57,14 @@ export default function Read() {
       </div>
 
       <div className="mb-3 flex items-center justify-between rounded-2xl bg-teal-50 p-1 text-sm font-semibold dark:bg-teal-900">
-        <button onClick={() => setTestMe(true)} className={cx('tap flex-1 rounded-xl py-2', testMe && 'bg-white shadow dark:bg-teal-700')}>
+        <button onClick={() => setTestMe(true)} className={cx('tap flex-1 rounded-xl py-2', testMe && 'bg-card shadow dark:bg-teal-700')}>
           Test me
         </button>
         <button
           onClick={() => {
             setTestMe(false);
           }}
-          className={cx('tap flex-1 rounded-xl py-2', !testMe && 'bg-white shadow dark:bg-teal-700')}
+          className={cx('tap flex-1 rounded-xl py-2', !testMe && 'bg-card shadow dark:bg-teal-700')}
         >
           Show meanings
         </button>
@@ -75,7 +75,7 @@ export default function Read() {
 
       <div className="flex flex-col gap-3">
         {AYAHS.map((a) => (
-          <div key={a.key} className="rounded-3xl bg-white p-4 shadow-card dark:bg-white/5">
+          <div key={a.key} className="rounded-3xl bg-card p-4 shadow-card">
             <div dir="rtl" className="flex flex-wrap gap-x-3 gap-y-2">
               {a.words.map((w) => {
                 const st = statusOf(w);
