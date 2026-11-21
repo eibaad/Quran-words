@@ -30,8 +30,6 @@ export const DATA = raw as unknown as {
 
 export const AYAHS = DATA.ayahs;
 export const WORDS: Word[] = AYAHS.flatMap((a) => a.words);
-// The Corpus lists root letters spaced out (ع ل م); show them joined, as Arabic dictionaries do (علم).
-for (const r of Object.values(DATA.roots)) r.letters = r.letters.replace(/\s+/g, '');
 export const ROOTS = DATA.roots;
 
 // Word-by-word recitation streams from the Quran.com CDN (not stored in the repo);
@@ -101,8 +99,22 @@ export const shuffle = <T,>(a: T[], seed = 1) => {
   return r;
 };
 
-/** The root's core sense, taken from the Quranic Arabic Corpus dictionary heading of its first verb form (e.g. "to have mercy"). */
-export const rootSense = (key: string) => {
-  const h = ROOTS[key]?.lemmas.find((l) => l.heading?.includes(' -'))?.heading;
-  return h ? h.slice(h.indexOf(' -') + 2).trim() : null;
+/**
+ * The word that heads a root family: its form I verb if the Corpus lists one, otherwise the form you meet in your surah.
+ * The gloss is the Corpus dictionary's own gloss for that form, or failing that, the Corpus gloss of its first occurrence.
+ * Nothing here is paraphrased or summarised by us.
+ */
+export const rootHead = (key: string) => {
+  const ls = ROOTS[key]?.lemmas ?? [];
+  const met = new Set(WORDS.filter((w) => w.root === key).map((w) => w.lemma?.ar));
+  const l =
+    ls.find((x) => x.heading?.startsWith('Verb (form I) -')) ??
+    [...ls].filter((x) => met.has(x.ar)).sort((a, b) => b.count - a.count)[0] ??
+    [...ls].sort((a, b) => b.count - a.count)[0];
+  if (!l) return null;
+  const h = l.heading?.includes(' -') ? l.heading.slice(l.heading.indexOf(' -') + 2).trim() : null;
+  return { ar: l.ar, kind: l.kind, count: l.count, gloss: h ?? l.example?.gloss ?? null };
 };
+
+/** Roots taught on their own rather than as a family. The Corpus files the name Allah under أ ل ه; scholars differ on whether it is derived. */
+export const STANDALONE_ROOTS = new Set(['Alh']);

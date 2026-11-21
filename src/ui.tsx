@@ -94,9 +94,7 @@ export function RootBadge({ w }: { w: Word }) {
   return (
     <span className="inline-flex items-center gap-2 rounded-full bg-teal-50 px-3 py-1 text-teal-700 dark:bg-teal-900 dark:text-teal-200">
       <span className="text-xs uppercase tracking-wide">Root</span>
-      <span className="ar text-lg leading-none" style={{ lineHeight: 1.4 }}>
-        {r.letters}
-      </span>
+      <RootLetters letters={r.letters} size="sm" />
     </span>
   );
 }
@@ -259,6 +257,20 @@ export function Ornament() {
         <path d="M10 0l2.4 5.6L18 3.2l-2.4 5.6L20 10l-4.4 1.2 2.4 5.6-5.6-2.4L10 20l-1.2-4.4-5.6 2.4 2.4-5.6L0 10l4.4-1.2L2 3.2l5.6 2.4z" />
       </svg>
       <span className="h-px w-10 bg-current opacity-60" />
+    </span>
+  );
+}
+
+/** Root letters shown as separate tiles, so they read as letters of a root rather than as a written word. */
+export function RootLetters({ letters, size = 'md' }: { letters: string; size?: 'sm' | 'md' | 'lg' }) {
+  const box = size === 'lg' ? 'h-14 w-14 text-3xl' : size === 'md' ? 'h-9 w-9 text-xl' : 'h-6 w-6 text-sm';
+  return (
+    <span dir="rtl" className="inline-flex gap-1" aria-label={`root letters ${letters}`}>
+      {letters.split(/\s+/).map((c, i) => (
+        <span key={i} className={cx('grid place-items-center rounded-md border border-gold-300 bg-paper font-ui text-ink dark:bg-paper-dark dark:text-ink-dark', box)} style={{ lineHeight: 1, fontFamily: "'Geeza Pro', 'SF Arabic', 'Noto Naskh Arabic', 'Arial', sans-serif" }}>
+          {c}
+        </span>
+      ))}
     </span>
   );
 }

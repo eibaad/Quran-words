@@ -1,23 +1,23 @@
 import { useMemo, useState } from 'react';
-import { ITEMS, ROOTS, type Word, rootSense, statusOf } from '../data';
-import { AyahContext, Btn, Card, Meaning, Ornament, PlayButton, cx } from '../ui';
+import { ITEMS, ROOTS, STANDALONE_ROOTS, type Word, statusOf } from '../data';
+import { AyahContext, Btn, Card, Meaning, Ornament, PlayButton, RootLetters, cx } from '../ui';
 import { RootDetective } from './Session';
 
 /*
  * Flow 3, "Root families": the root is the unit you learn. Each lesson opens one root
- * (its letters and core sense from the Quranic Arabic Corpus), meets its words in the ayahs
+ * (its letters, and how often its forms appear, from the Quranic Arabic Corpus), meets its words in the ayahs
  * you recite, then has you guess a relative you haven't seen. The home screen is your map of roots,
  * ordered by how often each root appears in the Quran.
  */
 
-type Fam = { key: string; letters: string; sense: string | null; count: number; forms: number; words: Word[]; known: number };
+type Fam = { key: string; letters: string;  count: number; forms: number; words: Word[]; known: number };
 
 const families = (): Fam[] =>
   Object.entries(ROOTS)
+    .filter(([key]) => !STANDALONE_ROOTS.has(key))
     .map(([key, r]) => {
       const words = ITEMS.filter((i) => i.word.root === key).map((i) => i.word);
-      const top = [...r.lemmas].sort((a, b) => b.count - a.count)[0];
-      return { key, letters: r.letters, sense: rootSense(key) ?? (top?.example?.gloss ? `“${top.example.gloss}”` : null), count: r.count, forms: r.lemmas.length, words, known: words.filter((w) => statusOf(w) === 'known').length };
+      return { key, letters: r.letters, count: r.count, forms: r.lemmas.length, words, known: words.filter((w) => statusOf(w) === 'known').length };
     })
     .sort((a, b) => b.count - a.count);
 
@@ -38,16 +38,15 @@ export function RootHome({ onStart }: { onStart: (rootKey: string) => void }) {
 
       <Card className="relative overflow-hidden bg-gradient-to-br from-teal-600 to-teal-900 text-white">
         <div className="text-xs uppercase tracking-widest text-teal-100">Next root</div>
-        <div className="mt-1 flex items-end justify-between gap-3">
-          <div>
-            <div className="text-lg font-semibold">{next.sense ?? 'Root family'}</div>
-            <div className="text-sm text-teal-100">
-              {next.count.toLocaleString()}× in the Quran · {next.forms} forms
-            </div>
-          </div>
-          <span className="ar text-5xl" style={{ lineHeight: 1.4 }}>
-            {next.letters}
+        <div className="mt-1 flex flex-col items-center gap-1 text-center">
+          <span className="ar text-5xl" style={{ lineHeight: 2 }}>
+            {next.words[0].ar}
           </span>
+          <span className="text-lg font-semibold">{next.words[0].en}</span>
+          <RootLetters letters={next.letters} size="sm" />
+          <div className="text-sm text-teal-100">
+            Root: {next.count.toLocaleString()}× in the Quran · {next.forms} forms
+          </div>
         </div>
         <button onClick={() => onStart(next.key)} className="tap mt-4 w-full rounded-2xl bg-white py-3.5 text-lg font-bold text-teal-700">
           Open this root
@@ -61,11 +60,12 @@ export function RootHome({ onStart }: { onStart: (rootKey: string) => void }) {
             <button key={f.key} onClick={() => onStart(f.key)} className="tap rounded-2xl bg-card p-3 text-left shadow-card">
               <div className="flex items-start justify-between gap-2">
                 <Ring pct={pct} />
-                <span className="ar text-3xl" style={{ lineHeight: 1.3 }}>
-                  {f.letters}
-                </span>
+                <RootLetters letters={f.letters} size="sm" />
               </div>
-              <div className="mt-1 line-clamp-2 min-h-[2.5em] text-sm font-medium leading-tight">{f.sense ?? '—'}</div>
+              <div className="ar mt-1 text-right text-3xl" style={{ lineHeight: 1.9 }}>
+                {f.words[0]?.ar}
+              </div>
+              <div className="min-h-[2.5em] text-sm leading-tight">{f.words[0] && <Meaning w={f.words[0]} size="sm" />}</div>
               <div className="mt-1 text-[11px] text-ink-soft">
                 {f.count.toLocaleString()}× · {f.known}/{f.words.length} in Fatiha known
               </div>
@@ -73,7 +73,10 @@ export function RootHome({ onStart }: { onStart: (rootKey: string) => void }) {
           );
         })}
       </div>
-      <p className="text-center text-[11px] text-ink-soft">Core senses: Quranic Arabic Corpus dictionary. Words with no root (particles, pronouns) are taught in the daily deck.</p>
+      <p className="text-center text-[11px] text-ink-soft">
+        Each tile shows the word from Al-Fatiha and its root letters. Root assignments and counts: Quranic Arabic Corpus. The name
+        <span className="ar"> ٱللَّه </span>is taught on its own: the Corpus files it under a root, but scholars differ on whether it is derived. Particles and pronouns are taught in the daily deck.
+      </p>
     </div>
   );
 }
@@ -93,7 +96,6 @@ type Stage = 'intro' | 'meet' | 'guess' | 'family';
 
 export function RootLesson({ rootKey, onExit }: { rootKey: string; onExit: () => void }) {
   const r = ROOTS[rootKey];
-  const sense = rootSense(rootKey);
   const words = ITEMS.filter((i) => i.word.root === rootKey).map((i) => i.word);
   const fatihaLemmas = new Set(words.map((w) => w.lemma?.ar));
   // a relative you haven't met: the most frequent other form that has a real example
@@ -120,9 +122,7 @@ export function RootLesson({ rootKey, onExit }: { rootKey: string; onExit: () =>
           <div className="h-2.5 flex-1 overflow-hidden rounded-full bg-black/10 dark:bg-white/10">
             <div className="h-full rounded-full bg-teal-500 transition-all" style={{ width: `${(idx / stages.length) * 100}%` }} />
           </div>
-          <span className="ar text-xl" style={{ lineHeight: 1.4 }}>
-            {r.letters}
-          </span>
+          <RootLetters letters={r.letters} size="sm" />
         </div>
       </div>
 
@@ -130,17 +130,22 @@ export function RootLesson({ rootKey, onExit }: { rootKey: string; onExit: () =>
         {stage === 'intro' && (
           <div className="flex flex-1 animate-pop flex-col gap-4 pt-4">
             <Card className="flex flex-col items-center gap-2 text-center">
-              <div className="text-xs uppercase tracking-widest text-ink-soft">Root</div>
-              <div className="ar mb-2 text-7xl text-teal-700 dark:text-teal-200" style={{ lineHeight: 2 }}>
-                {r.letters}
+              <div className="text-xs uppercase tracking-widest text-ink-soft">Root letters</div>
+              <RootLetters letters={r.letters} size="lg" />
+              <div className="mt-4 text-xs uppercase tracking-widest text-ink-soft">In Al-Fatiha</div>
+              <div dir="rtl" className="flex flex-wrap justify-center gap-x-5">
+                {words.map((w) => (
+                  <span key={w.loc} className="ar text-4xl text-teal-700 dark:text-teal-200" style={{ lineHeight: 1.9 }}>
+                    {w.ar}
+                  </span>
+                ))}
               </div>
-              {sense && <div className="text-xl font-semibold">{sense}</div>}
               <div className="text-sm text-ink-soft">
-                {r.count.toLocaleString()} times in the Quran, in {r.lemmas.length} forms
+                Words from this root appear {r.count.toLocaleString()} times in the Quran, in {r.lemmas.length} forms
               </div>
             </Card>
             <p className="text-center text-sm text-ink-soft">
-              Every word built on these letters carries this idea. You'll meet {words.length === 1 ? 'its word' : `its ${words.length} words`} in Al-Fatiha
+              Words built on the same root letters are related in meaning. First recall {words.length === 1 ? 'the word' : `the ${words.length} words`} from Al-Fatiha
               {guessIdx !== undefined ? ', then guess one you have never seen.' : '.'}
             </p>
             <Btn className="w-full" onClick={nextStage}>
@@ -165,7 +170,7 @@ export function RootLesson({ rootKey, onExit }: { rootKey: string; onExit: () =>
               {shown ? (
                 <Meaning w={words[wi]} size="lg" className="animate-pop items-center text-center" />
               ) : (
-                <p className="text-sm text-ink-soft">{sense ? `Using “${sense}”, what does it mean here?` : 'What does it mean here?'}</p>
+                <p className="text-sm text-ink-soft">What does it mean here?</p>
               )}
             </Card>
             {shown ? (
@@ -206,10 +211,8 @@ export function RootLesson({ rootKey, onExit }: { rootKey: string; onExit: () =>
         {stage === 'family' && (
           <div className="flex flex-1 animate-pop flex-col gap-4 pt-4">
             <div className="text-center">
-              <div className="ar text-4xl text-teal-700 dark:text-teal-200" style={{ lineHeight: 1.6 }}>
-                {r.letters}
-              </div>
-              <div className="font-semibold">The family {sense && `of “${sense}”`}</div>
+              <RootLetters letters={r.letters} size="md" />
+              <div className="mt-2 font-semibold">Every form of this root in the Quran</div>
               <div className="text-xs text-ink-soft">How often each form appears in the Quran</div>
             </div>
             <Card className="flex flex-col gap-2.5 !p-4">
@@ -218,14 +221,14 @@ export function RootLesson({ rootKey, onExit }: { rootKey: string; onExit: () =>
                 return (
                   <div key={l.ar + i} className="flex items-center gap-3">
                     <span className={cx('ar w-20 shrink-0 text-right text-xl', met ? 'text-teal-700 dark:text-teal-200' : 'opacity-50')} style={{ lineHeight: 1.6 }}>
-                      {l.ar}
+                      {l.example?.ar ?? l.ar}
                     </span>
                     <div className="min-w-0 flex-1">
                       <div className="h-2 overflow-hidden rounded-full bg-black/5 dark:bg-white/10">
                         <div className={cx('h-full rounded-full', met ? 'bg-teal-500' : 'bg-gold-300')} style={{ width: `${Math.max(3, (l.count / maxCount) * 100)}%` }} />
                       </div>
                       <div className="mt-0.5 truncate text-[11px] text-ink-soft">
-                        {l.count}× · {l.example?.gloss ? `“${l.example.gloss}”` : l.kind}
+                        {l.count}× · {l.example?.gloss ? `“${l.example.gloss}” (${l.example.loc})` : l.kind}
                       </div>
                     </div>
                     {met && <span className="text-xs font-semibold text-teal-600">met</span>}

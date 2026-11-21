@@ -68,7 +68,7 @@ export default function Words() {
                 <Meaning w={i.word} size="sm" />
                 <div className="text-[11px] text-ink-soft dark:text-ink-darksoft">
                   {i.freq ? `${i.freq.toLocaleString()}× in Quran` : 'particle'}
-                  {i.word.root && <> · root <span className="ar">{ROOTS[i.word.root].letters}</span></>}
+                  {i.word.root && <> · root letters <span className="ar">{ROOTS[i.word.root].letters}</span></>}
                 </div>
               </div>
               <span className="ar text-2xl" style={{ lineHeight: 1.7 }}>

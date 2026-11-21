@@ -496,7 +496,7 @@ export function RootDetective({ known, rootKey, lemmaIdx, onDone }: { known: Wor
       {picked && (
         <Feedback
           ok={ok}
-          answer={`${ex.ar} = “${ex.gloss}” (${ex.loc}). Root ${r.letters} carries the idea you already know from ${known.ar}.`}
+          answer={`${ex.ar} = “${ex.gloss}” (${ex.loc}). It shares its root letters (${r.letters}) with ${known.ar}, which you already know.`}
           onNext={() => onDone(ok)}
         />
       )}
