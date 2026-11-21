@@ -30,6 +30,8 @@ export const DATA = raw as unknown as {
 
 export const AYAHS = DATA.ayahs;
 export const WORDS: Word[] = AYAHS.flatMap((a) => a.words);
+// The Corpus lists root letters spaced out (ع ل م); show them joined, as Arabic dictionaries do (علم).
+for (const r of Object.values(DATA.roots)) r.letters = r.letters.replace(/\s+/g, '');
 export const ROOTS = DATA.roots;
 
 // Word-by-word recitation streams from the Quran.com CDN (not stored in the repo);

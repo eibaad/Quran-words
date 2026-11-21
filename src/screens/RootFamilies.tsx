@@ -131,7 +131,7 @@ export function RootLesson({ rootKey, onExit }: { rootKey: string; onExit: () =>
           <div className="flex flex-1 animate-pop flex-col gap-4 pt-4">
             <Card className="flex flex-col items-center gap-2 text-center">
               <div className="text-xs uppercase tracking-widest text-ink-soft">Root</div>
-              <div className="ar mb-3 text-7xl text-teal-700 dark:text-teal-200" style={{ lineHeight: 1.5 }}>
+              <div className="ar mb-2 text-7xl text-teal-700 dark:text-teal-200" style={{ lineHeight: 2 }}>
                 {r.letters}
               </div>
               {sense && <div className="text-xl font-semibold">{sense}</div>}
