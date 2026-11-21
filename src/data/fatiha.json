@@ -1,0 +1,3157 @@
+{
+ "totalWords": 77881,
+ "surahs": [
+  {
+   "n": 1,
+   "ar": "الفاتحة",
+   "en": "Al-Fatihah",
+   "meaningEn": "The Opener",
+   "meaningUr": "کھولنے والی",
+   "ayahs": 7,
+   "words": 29,
+   "juzAmma": false
+  },
+  {
+   "n": 2,
+   "ar": "البقرة",
+   "en": "Al-Baqarah",
+   "meaningEn": "The Cow",
+   "meaningUr": "گائے",
+   "ayahs": 286,
+   "words": 6121,
+   "juzAmma": false
+  },
+  {
+   "n": 3,
+   "ar": "آل عمران",
+   "en": "Ali 'Imran",
+   "meaningEn": "Family of Imran",
+   "meaningUr": "عمران کا خاندان",
+   "ayahs": 200,
+   "words": 3485,
+   "juzAmma": false
+  },
+  {
+   "n": 4,
+   "ar": "النساء",
+   "en": "An-Nisa",
+   "meaningEn": "The Women",
+   "meaningUr": "عورت",
+   "ayahs": 176,
+   "words": 3751,
+   "juzAmma": false
+  },
+  {
+   "n": 5,
+   "ar": "المائدة",
+   "en": "Al-Ma'idah",
+   "meaningEn": "The Table Spread",
+   "meaningUr": "دسترخوان",
+   "ayahs": 120,
+   "words": 2808,
+   "juzAmma": false
+  },
+  {
+   "n": 6,
+   "ar": "الأنعام",
+   "en": "Al-An'am",
+   "meaningEn": "The Cattle",
+   "meaningUr": "مویشی",
+   "ayahs": 165,
+   "words": 3054,
+   "juzAmma": false
+  },
+  {
+   "n": 7,
+   "ar": "الأعراف",
+   "en": "Al-A'raf",
+   "meaningEn": "The Heights",
+   "meaningUr": "اونچی جگہ",
+   "ayahs": 206,
+   "words": 3324,
+   "juzAmma": false
+  },
+  {
+   "n": 8,
+   "ar": "الأنفال",
+   "en": "Al-Anfal",
+   "meaningEn": "The Spoils of War",
+   "meaningUr": "مال غنیمت",
+   "ayahs": 75,
+   "words": 1238,
+   "juzAmma": false
+  },
+  {
+   "n": 9,
+   "ar": "التوبة",
+   "en": "At-Tawbah",
+   "meaningEn": "The Repentance",
+   "meaningUr": "توبہ",
+   "ayahs": 129,
+   "words": 2498,
+   "juzAmma": false
+  },
+  {
+   "n": 10,
+   "ar": "يونس",
+   "en": "Yunus",
+   "meaningEn": "Jonah",
+   "meaningUr": "یونس",
+   "ayahs": 109,
+   "words": 1837,
+   "juzAmma": false
+  },
+  {
+   "n": 11,
+   "ar": "هود",
+   "en": "Hud",
+   "meaningEn": "Hud",
+   "meaningUr": "حود",
+   "ayahs": 123,
+   "words": 1921,
+   "juzAmma": false
+  },
+  {
+   "n": 12,
+   "ar": "يوسف",
+   "en": "Yusuf",
+   "meaningEn": "Joseph",
+   "meaningUr": "یوسف",
+   "ayahs": 111,
+   "words": 1781,
+   "juzAmma": false
+  },
+  {
+   "n": 13,
+   "ar": "الرعد",
+   "en": "Ar-Ra'd",
+   "meaningEn": "The Thunder",
+   "meaningUr": "گرج",
+   "ayahs": 43,
+   "words": 858,
+   "juzAmma": false
+  },
+  {
+   "n": 14,
+   "ar": "ابراهيم",
+   "en": "Ibrahim",
+   "meaningEn": "Abraham",
+   "meaningUr": "ابراہیم",
+   "ayahs": 52,
+   "words": 834,
+   "juzAmma": false
+  },
+  {
+   "n": 15,
+   "ar": "الحجر",
+   "en": "Al-Hijr",
+   "meaningEn": "The Rocky Tract",
+   "meaningUr": "پتھر",
+   "ayahs": 99,
+   "words": 659,
+   "juzAmma": false
+  },
+  {
+   "n": 16,
+   "ar": "النحل",
+   "en": "An-Nahl",
+   "meaningEn": "The Bee",
+   "meaningUr": "شہد کی مکھی",
+   "ayahs": 128,
+   "words": 1848,
+   "juzAmma": false
+  },
+  {
+   "n": 17,
+   "ar": "الإسراء",
+   "en": "Al-Isra",
+   "meaningEn": "The Night Journey",
+   "meaningUr": "رات کا صفر",
+   "ayahs": 111,
+   "words": 1560,
+   "juzAmma": false
+  },
+  {
+   "n": 18,
+   "ar": "الكهف",
+   "en": "Al-Kahf",
+   "meaningEn": "The Cave",
+   "meaningUr": "غار",
+   "ayahs": 110,
+   "words": 1583,
+   "juzAmma": false
+  },
+  {
+   "n": 19,
+   "ar": "مريم",
+   "en": "Maryam",
+   "meaningEn": "Mary",
+   "meaningUr": "مریم",
+   "ayahs": 98,
+   "words": 965,
+   "juzAmma": false
+  },
+  {
+   "n": 20,
+   "ar": "طه",
+   "en": "Taha",
+   "meaningEn": "Ta-Ha",
+   "meaningUr": "طٰہٰ",
+   "ayahs": 135,
+   "words": 1339,
+   "juzAmma": false
+  },
+  {
+   "n": 21,
+   "ar": "الأنبياء",
+   "en": "Al-Anbya",
+   "meaningEn": "The Prophets",
+   "meaningUr": "پیغمبر",
+   "ayahs": 112,
+   "words": 1173,
+   "juzAmma": false
+  },
+  {
+   "n": 22,
+   "ar": "الحج",
+   "en": "Al-Hajj",
+   "meaningEn": "The Pilgrimage",
+   "meaningUr": "حج",
+   "ayahs": 78,
+   "words": 1278,
+   "juzAmma": false
+  },
+  {
+   "n": 23,
+   "ar": "المؤمنون",
+   "en": "Al-Mu'minun",
+   "meaningEn": "The Believers",
+   "meaningUr": "مومنین",
+   "ayahs": 118,
+   "words": 1054,
+   "juzAmma": false
+  },
+  {
+   "n": 24,
+   "ar": "النور",
+   "en": "An-Nur",
+   "meaningEn": "The Light",
+   "meaningUr": "نور",
+   "ayahs": 64,
+   "words": 1320,
+   "juzAmma": false
+  },
+  {
+   "n": 25,
+   "ar": "الفرقان",
+   "en": "Al-Furqan",
+   "meaningEn": "The Criterion",
+   "meaningUr": "صحیح اور غلط میں فرق کرنے والی کتاب",
+   "ayahs": 77,
+   "words": 897,
+   "juzAmma": false
+  },
+  {
+   "n": 26,
+   "ar": "الشعراء",
+   "en": "Ash-Shu'ara",
+   "meaningEn": "The Poets",
+   "meaningUr": "شعراٗ",
+   "ayahs": 227,
+   "words": 1322,
+   "juzAmma": false
+  },
+  {
+   "n": 27,
+   "ar": "النمل",
+   "en": "An-Naml",
+   "meaningEn": "The Ant",
+   "meaningUr": "چیونٹی",
+   "ayahs": 93,
+   "words": 1155,
+   "juzAmma": false
+  },
+  {
+   "n": 28,
+   "ar": "القصص",
+   "en": "Al-Qasas",
+   "meaningEn": "The Stories",
+   "meaningUr": "قصے",
+   "ayahs": 88,
+   "words": 1434,
+   "juzAmma": false
+  },
+  {
+   "n": 29,
+   "ar": "العنكبوت",
+   "en": "Al-'Ankabut",
+   "meaningEn": "The Spider",
+   "meaningUr": "مکڑی",
+   "ayahs": 69,
+   "words": 980,
+   "juzAmma": false
+  },
+  {
+   "n": 30,
+   "ar": "الروم",
+   "en": "Ar-Rum",
+   "meaningEn": "The Romans",
+   "meaningUr": "روم",
+   "ayahs": 60,
+   "words": 821,
+   "juzAmma": false
+  },
+  {
+   "n": 31,
+   "ar": "لقمان",
+   "en": "Luqman",
+   "meaningEn": "Luqman",
+   "meaningUr": "لقمان",
+   "ayahs": 34,
+   "words": 550,
+   "juzAmma": false
+  },
+  {
+   "n": 32,
+   "ar": "السجدة",
+   "en": "As-Sajdah",
+   "meaningEn": "The Prostration",
+   "meaningUr": "سجدہ",
+   "ayahs": 30,
+   "words": 376,
+   "juzAmma": false
+  },
+  {
+   "n": 33,
+   "ar": "الأحزاب",
+   "en": "Al-Ahzab",
+   "meaningEn": "The Combined Forces",
+   "meaningUr": "متحد گروہ",
+   "ayahs": 73,
+   "words": 1291,
+   "juzAmma": false
+  },
+  {
+   "n": 34,
+   "ar": "سبإ",
+   "en": "Saba",
+   "meaningEn": "Sheba",
+   "meaningUr": "سبا",
+   "ayahs": 54,
+   "words": 887,
+   "juzAmma": false
+  },
+  {
+   "n": 35,
+   "ar": "فاطر",
+   "en": "Fatir",
+   "meaningEn": "Originator",
+   "meaningUr": "پیدا کرنے والا",
+   "ayahs": 45,
+   "words": 779,
+   "juzAmma": false
+  },
+  {
+   "n": 36,
+   "ar": "يس",
+   "en": "Ya-Sin",
+   "meaningEn": "Ya Sin",
+   "meaningUr": "یٰسٓ",
+   "ayahs": 83,
+   "words": 729,
+   "juzAmma": false
+  },
+  {
+   "n": 37,
+   "ar": "الصافات",
+   "en": "As-Saffat",
+   "meaningEn": "Those who set the Ranks",
+   "meaningUr": "صف باندھنے والے",
+   "ayahs": 182,
+   "words": 865,
+   "juzAmma": false
+  },
+  {
+   "n": 38,
+   "ar": "ص",
+   "en": "Sad",
+   "meaningEn": "The Letter \"Saad\"",
+   "meaningUr": "صٓ",
+   "ayahs": 88,
+   "words": 737,
+   "juzAmma": false
+  },
+  {
+   "n": 39,
+   "ar": "الزمر",
+   "en": "Az-Zumar",
+   "meaningEn": "The Troops",
+   "meaningUr": "گروہ",
+   "ayahs": 75,
+   "words": 1176,
+   "juzAmma": false
+  },
+  {
+   "n": 40,
+   "ar": "غافر",
+   "en": "Ghafir",
+   "meaningEn": "The Forgiver",
+   "meaningUr": "بخشنے والا",
+   "ayahs": 85,
+   "words": 1223,
+   "juzAmma": false
+  },
+  {
+   "n": 41,
+   "ar": "فصلت",
+   "en": "Fussilat",
+   "meaningEn": "Explained in Detail",
+   "meaningUr": "مفصل",
+   "ayahs": 54,
+   "words": 798,
+   "juzAmma": false
+  },
+  {
+   "n": 42,
+   "ar": "الشورى",
+   "en": "Ash-Shuraa",
+   "meaningEn": "The Consultation",
+   "meaningUr": "شورٰی",
+   "ayahs": 53,
+   "words": 864,
+   "juzAmma": false
+  },
+  {
+   "n": 43,
+   "ar": "الزخرف",
+   "en": "Az-Zukhruf",
+   "meaningEn": "The Ornaments of Gold",
+   "meaningUr": "سونے کی چمک",
+   "ayahs": 89,
+   "words": 834,
+   "juzAmma": false
+  },
+  {
+   "n": 44,
+   "ar": "الدخان",
+   "en": "Ad-Dukhan",
+   "meaningEn": "The Smoke",
+   "meaningUr": "دھواں",
+   "ayahs": 59,
+   "words": 350,
+   "juzAmma": false
+  },
+  {
+   "n": 45,
+   "ar": "الجاثية",
+   "en": "Al-Jathiyah",
+   "meaningEn": "The Crouching",
+   "meaningUr": "زانوٗوں کے بل گری ہوئی",
+   "ayahs": 37,
+   "words": 492,
+   "juzAmma": false
+  },
+  {
+   "n": 46,
+   "ar": "الأحقاف",
+   "en": "Al-Ahqaf",
+   "meaningEn": "The Wind-Curved Sandhills",
+   "meaningUr": "ریگستان",
+   "ayahs": 35,
+   "words": 647,
+   "juzAmma": false
+  },
+  {
+   "n": 47,
+   "ar": "محمد",
+   "en": "Muhammad",
+   "meaningEn": "Muhammad",
+   "meaningUr": "محمدﷺ",
+   "ayahs": 38,
+   "words": 543,
+   "juzAmma": false
+  },
+  {
+   "n": 48,
+   "ar": "الفتح",
+   "en": "Al-Fath",
+   "meaningEn": "The Victory",
+   "meaningUr": "فتح",
+   "ayahs": 29,
+   "words": 564,
+   "juzAmma": false
+  },
+  {
+   "n": 49,
+   "ar": "الحجرات",
+   "en": "Al-Hujurat",
+   "meaningEn": "The Rooms",
+   "meaningUr": "حجرے",
+   "ayahs": 18,
+   "words": 351,
+   "juzAmma": false
+  },
+  {
+   "n": 50,
+   "ar": "ق",
+   "en": "Qaf",
+   "meaningEn": "The Letter \"Qaf\"",
+   "meaningUr": "قٓ",
+   "ayahs": 45,
+   "words": 377,
+   "juzAmma": false
+  },
+  {
+   "n": 51,
+   "ar": "الذاريات",
+   "en": "Adh-Dhariyat",
+   "meaningEn": "The Winnowing Winds",
+   "meaningUr": "بکھیرنے والیاں",
+   "ayahs": 60,
+   "words": 364,
+   "juzAmma": false
+  },
+  {
+   "n": 52,
+   "ar": "الطور",
+   "en": "At-Tur",
+   "meaningEn": "The Mount",
+   "meaningUr": "طور پہاڑ",
+   "ayahs": 49,
+   "words": 316,
+   "juzAmma": false
+  },
+  {
+   "n": 53,
+   "ar": "النجم",
+   "en": "An-Najm",
+   "meaningEn": "The Star",
+   "meaningUr": "ستارہ",
+   "ayahs": 62,
+   "words": 364,
+   "juzAmma": false
+  },
+  {
+   "n": 54,
+   "ar": "القمر",
+   "en": "Al-Qamar",
+   "meaningEn": "The Moon",
+   "meaningUr": "چاند",
+   "ayahs": 55,
+   "words": 346,
+   "juzAmma": false
+  },
+  {
+   "n": 55,
+   "ar": "الرحمن",
+   "en": "Ar-Rahman",
+   "meaningEn": "The Beneficent",
+   "meaningUr": "مہربان",
+   "ayahs": 78,
+   "words": 355,
+   "juzAmma": false
+  },
+  {
+   "n": 56,
+   "ar": "الواقعة",
+   "en": "Al-Waqi'ah",
+   "meaningEn": "The Inevitable",
+   "meaningUr": "واقعہ ہونے والی قیامت",
+   "ayahs": 96,
+   "words": 383,
+   "juzAmma": false
+  },
+  {
+   "n": 57,
+   "ar": "الحديد",
+   "en": "Al-Hadid",
+   "meaningEn": "The Iron",
+   "meaningUr": "فولاد",
+   "ayahs": 29,
+   "words": 578,
+   "juzAmma": false
+  },
+  {
+   "n": 58,
+   "ar": "المجادلة",
+   "en": "Al-Mujadila",
+   "meaningEn": "The Pleading Woman",
+   "meaningUr": "جھگڑنے والی",
+   "ayahs": 22,
+   "words": 476,
+   "juzAmma": false
+  },
+  {
+   "n": 59,
+   "ar": "الحشر",
+   "en": "Al-Hashr",
+   "meaningEn": "The Exile",
+   "meaningUr": "حشر",
+   "ayahs": 24,
+   "words": 449,
+   "juzAmma": false
+  },
+  {
+   "n": 60,
+   "ar": "الممتحنة",
+   "en": "Al-Mumtahanah",
+   "meaningEn": "She that is to be examined",
+   "meaningUr": "امتحان لی جانے والی",
+   "ayahs": 13,
+   "words": 352,
+   "juzAmma": false
+  },
+  {
+   "n": 61,
+   "ar": "الصف",
+   "en": "As-Saf",
+   "meaningEn": "The Ranks",
+   "meaningUr": "صف",
+   "ayahs": 14,
+   "words": 225,
+   "juzAmma": false
+  },
+  {
+   "n": 62,
+   "ar": "الجمعة",
+   "en": "Al-Jumu'ah",
+   "meaningEn": "The Congregation, Friday",
+   "meaningUr": "جمعہ",
+   "ayahs": 11,
+   "words": 179,
+   "juzAmma": false
+  },
+  {
+   "n": 63,
+   "ar": "المنافقون",
+   "en": "Al-Munafiqun",
+   "meaningEn": "The Hypocrites",
+   "meaningUr": "منافقین",
+   "ayahs": 11,
+   "words": 184,
+   "juzAmma": false
+  },
+  {
+   "n": 64,
+   "ar": "التغابن",
+   "en": "At-Taghabun",
+   "meaningEn": "The Mutual Disillusion",
+   "meaningUr": "ہار جیت",
+   "ayahs": 18,
+   "words": 245,
+   "juzAmma": false
+  },
+  {
+   "n": 65,
+   "ar": "الطلاق",
+   "en": "At-Talaq",
+   "meaningEn": "The Divorce",
+   "meaningUr": "طلاق",
+   "ayahs": 12,
+   "words": 291,
+   "juzAmma": false
+  },
+  {
+   "n": 66,
+   "ar": "التحريم",
+   "en": "At-Tahrim",
+   "meaningEn": "The Prohibition",
+   "meaningUr": "حرمت",
+   "ayahs": 12,
+   "words": 253,
+   "juzAmma": false
+  },
+  {
+   "n": 67,
+   "ar": "الملك",
+   "en": "Al-Mulk",
+   "meaningEn": "The Sovereignty",
+   "meaningUr": "بادشاہ",
+   "ayahs": 30,
+   "words": 337,
+   "juzAmma": false
+  },
+  {
+   "n": 68,
+   "ar": "القلم",
+   "en": "Al-Qalam",
+   "meaningEn": "The Pen",
+   "meaningUr": "قلم",
+   "ayahs": 52,
+   "words": 304,
+   "juzAmma": false
+  },
+  {
+   "n": 69,
+   "ar": "الحاقة",
+   "en": "Al-Haqqah",
+   "meaningEn": "The Reality",
+   "meaningUr": "حق ہونے والی",
+   "ayahs": 52,
+   "words": 262,
+   "juzAmma": false
+  },
+  {
+   "n": 70,
+   "ar": "المعارج",
+   "en": "Al-Ma'arij",
+   "meaningEn": "The Ascending Stairways",
+   "meaningUr": "عروج",
+   "ayahs": 44,
+   "words": 221,
+   "juzAmma": false
+  },
+  {
+   "n": 71,
+   "ar": "نوح",
+   "en": "Nuh",
+   "meaningEn": "Noah",
+   "meaningUr": "نوح",
+   "ayahs": 28,
+   "words": 230,
+   "juzAmma": false
+  },
+  {
+   "n": 72,
+   "ar": "الجن",
+   "en": "Al-Jinn",
+   "meaningEn": "The Jinn",
+   "meaningUr": "جن",
+   "ayahs": 28,
+   "words": 289,
+   "juzAmma": false
+  },
+  {
+   "n": 73,
+   "ar": "المزمل",
+   "en": "Al-Muzzammil",
+   "meaningEn": "The Enshrouded One",
+   "meaningUr": "کپڑا لپیٹنے والا",
+   "ayahs": 20,
+   "words": 203,
+   "juzAmma": false
+  },
+  {
+   "n": 74,
+   "ar": "المدثر",
+   "en": "Al-Muddaththir",
+   "meaningEn": "The Cloaked One",
+   "meaningUr": "کپڑا اوڑھنے والا",
+   "ayahs": 56,
+   "words": 259,
+   "juzAmma": false
+  },
+  {
+   "n": 75,
+   "ar": "القيامة",
+   "en": "Al-Qiyamah",
+   "meaningEn": "The Resurrection",
+   "meaningUr": "قیامۃ",
+   "ayahs": 40,
+   "words": 168,
+   "juzAmma": false
+  },
+  {
+   "n": 76,
+   "ar": "الانسان",
+   "en": "Al-Insan",
+   "meaningEn": "The Man",
+   "meaningUr": "انسان",
+   "ayahs": 31,
+   "words": 247,
+   "juzAmma": false
+  },
+  {
+   "n": 77,
+   "ar": "المرسلات",
+   "en": "Al-Mursalat",
+   "meaningEn": "The Emissaries",
+   "meaningUr": "بھیجی جانے والی ہوائیں",
+   "ayahs": 50,
+   "words": 185,
+   "juzAmma": false
+  },
+  {
+   "n": 78,
+   "ar": "النبإ",
+   "en": "An-Naba",
+   "meaningEn": "The Tidings",
+   "meaningUr": "خبر",
+   "ayahs": 40,
+   "words": 177,
+   "juzAmma": true
+  },
+  {
+   "n": 79,
+   "ar": "النازعات",
+   "en": "An-Nazi'at",
+   "meaningEn": "Those who drag forth",
+   "meaningUr": "زور سے کھینچنے والے",
+   "ayahs": 46,
+   "words": 183,
+   "juzAmma": true
+  },
+  {
+   "n": 80,
+   "ar": "عبس",
+   "en": "'Abasa",
+   "meaningEn": "He Frowned",
+   "meaningUr": "تیوری چڑہائی",
+   "ayahs": 42,
+   "words": 137,
+   "juzAmma": true
+  },
+  {
+   "n": 81,
+   "ar": "التكوير",
+   "en": "At-Takwir",
+   "meaningEn": "The Overthrowing",
+   "meaningUr": "لپیٹنا",
+   "ayahs": 29,
+   "words": 108,
+   "juzAmma": true
+  },
+  {
+   "n": 82,
+   "ar": "الإنفطار",
+   "en": "Al-Infitar",
+   "meaningEn": "The Cleaving",
+   "meaningUr": "ٹکڑے ہونا",
+   "ayahs": 19,
+   "words": 84,
+   "juzAmma": true
+  },
+  {
+   "n": 83,
+   "ar": "المطففين",
+   "en": "Al-Mutaffifin",
+   "meaningEn": "The Defrauding",
+   "meaningUr": "ناپ تول میں کمی کرنے والے",
+   "ayahs": 36,
+   "words": 173,
+   "juzAmma": true
+  },
+  {
+   "n": 84,
+   "ar": "الإنشقاق",
+   "en": "Al-Inshiqaq",
+   "meaningEn": "The Sundering",
+   "meaningUr": "پھٹنا",
+   "ayahs": 25,
+   "words": 111,
+   "juzAmma": true
+  },
+  {
+   "n": 85,
+   "ar": "البروج",
+   "en": "Al-Buruj",
+   "meaningEn": "The Mansions of the Stars",
+   "meaningUr": "برج",
+   "ayahs": 22,
+   "words": 113,
+   "juzAmma": true
+  },
+  {
+   "n": 86,
+   "ar": "الطارق",
+   "en": "At-Tariq",
+   "meaningEn": "The Nightcommer",
+   "meaningUr": "رات کو آنے والا",
+   "ayahs": 17,
+   "words": 65,
+   "juzAmma": true
+  },
+  {
+   "n": 87,
+   "ar": "الأعلى",
+   "en": "Al-A'la",
+   "meaningEn": "The Most High",
+   "meaningUr": "اعلی",
+   "ayahs": 19,
+   "words": 76,
+   "juzAmma": true
+  },
+  {
+   "n": 88,
+   "ar": "الغاشية",
+   "en": "Al-Ghashiyah",
+   "meaningEn": "The Overwhelming",
+   "meaningUr": "چھا جانے والی",
+   "ayahs": 26,
+   "words": 96,
+   "juzAmma": true
+  },
+  {
+   "n": 89,
+   "ar": "الفجر",
+   "en": "Al-Fajr",
+   "meaningEn": "The Dawn",
+   "meaningUr": "فجر",
+   "ayahs": 30,
+   "words": 141,
+   "juzAmma": true
+  },
+  {
+   "n": 90,
+   "ar": "البلد",
+   "en": "Al-Balad",
+   "meaningEn": "The City",
+   "meaningUr": "شہر",
+   "ayahs": 20,
+   "words": 86,
+   "juzAmma": true
+  },
+  {
+   "n": 91,
+   "ar": "الشمس",
+   "en": "Ash-Shams",
+   "meaningEn": "The Sun",
+   "meaningUr": "آفتاب",
+   "ayahs": 15,
+   "words": 58,
+   "juzAmma": true
+  },
+  {
+   "n": 92,
+   "ar": "الليل",
+   "en": "Al-Layl",
+   "meaningEn": "The Night",
+   "meaningUr": "رات",
+   "ayahs": 21,
+   "words": 75,
+   "juzAmma": true
+  },
+  {
+   "n": 93,
+   "ar": "الضحى",
+   "en": "Ad-Duhaa",
+   "meaningEn": "The Morning Hours",
+   "meaningUr": "دن کا چڑھنا",
+   "ayahs": 11,
+   "words": 44,
+   "juzAmma": true
+  },
+  {
+   "n": 94,
+   "ar": "الشرح",
+   "en": "Ash-Sharh",
+   "meaningEn": "The Relief",
+   "meaningUr": "تسکین",
+   "ayahs": 8,
+   "words": 31,
+   "juzAmma": true
+  },
+  {
+   "n": 95,
+   "ar": "التين",
+   "en": "At-Tin",
+   "meaningEn": "The Fig",
+   "meaningUr": "انجیر",
+   "ayahs": 8,
+   "words": 38,
+   "juzAmma": true
+  },
+  {
+   "n": 96,
+   "ar": "العلق",
+   "en": "Al-'Alaq",
+   "meaningEn": "The Clot",
+   "meaningUr": "جما ہوا خون",
+   "ayahs": 19,
+   "words": 76,
+   "juzAmma": true
+  },
+  {
+   "n": 97,
+   "ar": "القدر",
+   "en": "Al-Qadr",
+   "meaningEn": "The Power",
+   "meaningUr": "شب قدر",
+   "ayahs": 5,
+   "words": 34,
+   "juzAmma": true
+  },
+  {
+   "n": 98,
+   "ar": "البينة",
+   "en": "Al-Bayyinah",
+   "meaningEn": "The Clear Proof",
+   "meaningUr": "ثبوت",
+   "ayahs": 8,
+   "words": 98,
+   "juzAmma": true
+  },
+  {
+   "n": 99,
+   "ar": "الزلزلة",
+   "en": "Az-Zalzalah",
+   "meaningEn": "The Earthquake",
+   "meaningUr": "زلزلہ",
+   "ayahs": 8,
+   "words": 40,
+   "juzAmma": true
+  },
+  {
+   "n": 100,
+   "ar": "العاديات",
+   "en": "Al-'Adiyat",
+   "meaningEn": "The Courser",
+   "meaningUr": "دوڑنے والے گھوڑے",
+   "ayahs": 11,
+   "words": 44,
+   "juzAmma": true
+  },
+  {
+   "n": 101,
+   "ar": "القارعة",
+   "en": "Al-Qari'ah",
+   "meaningEn": "The Calamity",
+   "meaningUr": "کھڑکھڑاہٹ",
+   "ayahs": 11,
+   "words": 40,
+   "juzAmma": true
+  },
+  {
+   "n": 102,
+   "ar": "التكاثر",
+   "en": "At-Takathur",
+   "meaningEn": "The Rivalry in world increase",
+   "meaningUr": "کثرت",
+   "ayahs": 8,
+   "words": 32,
+   "juzAmma": true
+  },
+  {
+   "n": 103,
+   "ar": "العصر",
+   "en": "Al-'Asr",
+   "meaningEn": "The Declining Day",
+   "meaningUr": "زمانہ",
+   "ayahs": 3,
+   "words": 18,
+   "juzAmma": true
+  },
+  {
+   "n": 104,
+   "ar": "الهمزة",
+   "en": "Al-Humazah",
+   "meaningEn": "The Traducer",
+   "meaningUr": "عیب لگانے والا",
+   "ayahs": 9,
+   "words": 37,
+   "juzAmma": true
+  },
+  {
+   "n": 105,
+   "ar": "الفيل",
+   "en": "Al-Fil",
+   "meaningEn": "The Elephant",
+   "meaningUr": "ہاتھی",
+   "ayahs": 5,
+   "words": 27,
+   "juzAmma": true
+  },
+  {
+   "n": 106,
+   "ar": "قريش",
+   "en": "Quraysh",
+   "meaningEn": "Quraysh",
+   "meaningUr": "قریش",
+   "ayahs": 4,
+   "words": 21,
+   "juzAmma": true
+  },
+  {
+   "n": 107,
+   "ar": "الماعون",
+   "en": "Al-Ma'un",
+   "meaningEn": "The Small kindnesses",
+   "meaningUr": "تھوڑی سی چیز",
+   "ayahs": 7,
+   "words": 29,
+   "juzAmma": true
+  },
+  {
+   "n": 108,
+   "ar": "الكوثر",
+   "en": "Al-Kawthar",
+   "meaningEn": "The Abundance",
+   "meaningUr": "جنت کی نہر",
+   "ayahs": 3,
+   "words": 14,
+   "juzAmma": true
+  },
+  {
+   "n": 109,
+   "ar": "الكافرون",
+   "en": "Al-Kafirun",
+   "meaningEn": "The Disbelievers",
+   "meaningUr": "کافرین",
+   "ayahs": 6,
+   "words": 30,
+   "juzAmma": true
+  },
+  {
+   "n": 110,
+   "ar": "النصر",
+   "en": "An-Nasr",
+   "meaningEn": "The Divine Support",
+   "meaningUr": "نصرت",
+   "ayahs": 3,
+   "words": 23,
+   "juzAmma": true
+  },
+  {
+   "n": 111,
+   "ar": "المسد",
+   "en": "Al-Masad",
+   "meaningEn": "The Palm Fiber",
+   "meaningUr": "خوب بٹی ہوئی",
+   "ayahs": 5,
+   "words": 27,
+   "juzAmma": true
+  },
+  {
+   "n": 112,
+   "ar": "الإخلاص",
+   "en": "Al-Ikhlas",
+   "meaningEn": "The Sincerity",
+   "meaningUr": "اخلاص",
+   "ayahs": 4,
+   "words": 19,
+   "juzAmma": true
+  },
+  {
+   "n": 113,
+   "ar": "الفلق",
+   "en": "Al-Falaq",
+   "meaningEn": "The Daybreak",
+   "meaningUr": "صبح",
+   "ayahs": 5,
+   "words": 27,
+   "juzAmma": true
+  },
+  {
+   "n": 114,
+   "ar": "الناس",
+   "en": "An-Nas",
+   "meaningEn": "Mankind",
+   "meaningUr": "انسان",
+   "ayahs": 6,
+   "words": 24,
+   "juzAmma": true
+  }
+ ],
+ "surah": {
+  "number": 1,
+  "nameAr": "الفاتحة",
+  "nameEn": "Al-Fatiha"
+ },
+ "ayahs": [
+  {
+   "key": "1:1",
+   "ayah": 1,
+   "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+   "words": [
+    {
+     "loc": "1:1:1",
+     "ar": "بِسْمِ",
+     "en": "In (the) name",
+     "ur": "ساتھ نام",
+     "translit": "bis'mi",
+     "morph": "P – prefixed preposition bi N – genitive masculine noun",
+     "audio": "001_001_001.mp3",
+     "root": "smw",
+     "lemma": {
+      "ar": "ٱسْم",
+      "kind": "noun is'm",
+      "count": 39
+     }
+    },
+    {
+     "loc": "1:1:2",
+     "ar": "ٱللَّهِ",
+     "en": "(of) Allah",
+     "ur": "اللہ کے",
+     "translit": "l-lahi",
+     "morph": "PN – genitive proper noun → Allah",
+     "audio": "001_001_002.mp3",
+     "root": "Alh",
+     "lemma": {
+      "ar": "ٱللَّه",
+      "kind": "proper noun allah",
+      "count": 2699
+     }
+    },
+    {
+     "loc": "1:1:3",
+     "ar": "ٱلرَّحْمَـٰنِ",
+     "en": "the Most Gracious",
+     "ur": "جو بے حد مہربان ہے",
+     "translit": "l-raḥmāni",
+     "morph": "ADJ – genitive masculine singular adjective",
+     "audio": "001_001_003.mp3",
+     "root": "rHm",
+     "lemma": {
+      "ar": "رَّحْمَٰن",
+      "kind": "nominal raḥmān",
+      "count": 57
+     }
+    },
+    {
+     "loc": "1:1:4",
+     "ar": "ٱلرَّحِيمِ",
+     "en": "the Most Merciful",
+     "ur": "بار بار رحم فرمانے والا ہے",
+     "translit": "l-raḥīmi",
+     "morph": "ADJ – genitive masculine singular adjective",
+     "audio": "001_001_004.mp3",
+     "root": "rHm",
+     "lemma": {
+      "ar": "رَّحِيم",
+      "kind": "nominal raḥīm",
+      "count": 116
+     }
+    }
+   ]
+  },
+  {
+   "key": "1:2",
+   "ayah": 2,
+   "text": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
+   "words": [
+    {
+     "loc": "1:2:1",
+     "ar": "ٱلْحَمْدُ",
+     "en": "All praises and thanks",
+     "ur": "سب تعریف",
+     "translit": "al-ḥamdu",
+     "morph": "N – nominative masculine noun",
+     "audio": "001_002_001.mp3",
+     "root": "Hmd",
+     "lemma": {
+      "ar": "حَمْد",
+      "kind": "noun ḥamd",
+      "count": 43
+     }
+    },
+    {
+     "loc": "1:2:2",
+     "ar": "لِلَّهِ",
+     "en": "(be) to Allah",
+     "ur": "اللہ کے لیے ہے",
+     "translit": "lillahi",
+     "morph": "P – prefixed preposition lām PN – genitive proper noun → Allah",
+     "audio": "001_002_002.mp3",
+     "root": "Alh",
+     "lemma": {
+      "ar": "ٱللَّه",
+      "kind": "proper noun allah",
+      "count": 2699
+     }
+    },
+    {
+     "loc": "1:2:3",
+     "ar": "رَبِّ",
+     "en": "the Lord",
+     "ur": "جو رب ہے",
+     "translit": "rabbi",
+     "morph": "N – genitive masculine noun",
+     "audio": "001_002_003.mp3",
+     "root": "rbb",
+     "lemma": {
+      "ar": "رَبّ",
+      "kind": "noun rabb",
+      "count": 975
+     }
+    },
+    {
+     "loc": "1:2:4",
+     "ar": "ٱلْعَـٰلَمِينَ",
+     "en": "of the universe",
+     "ur": "تمام جہانوں کا",
+     "translit": "l-ʿālamīna",
+     "morph": "N – genitive masculine plural noun",
+     "audio": "001_002_004.mp3",
+     "root": "Elm",
+     "lemma": {
+      "ar": "عَٰلَمِين",
+      "kind": "noun ʿālamīn",
+      "count": 73
+     }
+    }
+   ]
+  },
+  {
+   "key": "1:3",
+   "ayah": 3,
+   "text": "ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+   "words": [
+    {
+     "loc": "1:3:1",
+     "ar": "ٱلرَّحْمَـٰنِ",
+     "en": "The Most Gracious",
+     "ur": "جو بہت مہربان",
+     "translit": "al-raḥmāni",
+     "morph": "ADJ – genitive masculine singular adjective",
+     "audio": "001_003_001.mp3",
+     "root": "rHm",
+     "lemma": {
+      "ar": "رَّحْمَٰن",
+      "kind": "nominal raḥmān",
+      "count": 57
+     }
+    },
+    {
+     "loc": "1:3:2",
+     "ar": "ٱلرَّحِيمِ",
+     "en": "the Most Merciful",
+     "ur": "بار بار رحم فرمانے والا ہے",
+     "translit": "l-raḥīmi",
+     "morph": "ADJ – genitive masculine singular adjective",
+     "audio": "001_003_002.mp3",
+     "root": "rHm",
+     "lemma": {
+      "ar": "رَّحِيم",
+      "kind": "nominal raḥīm",
+      "count": 116
+     }
+    }
+   ]
+  },
+  {
+   "key": "1:4",
+   "ayah": 4,
+   "text": "مَـٰلِكِ يَوْمِ ٱلدِّينِ",
+   "words": [
+    {
+     "loc": "1:4:1",
+     "ar": "مَـٰلِكِ",
+     "en": "(The) Master",
+     "ur": "مالک ہے",
+     "translit": "māliki",
+     "morph": "N – genitive masculine active participle",
+     "audio": "001_004_001.mp3",
+     "root": "mlk",
+     "lemma": {
+      "ar": "مَٰلِك",
+      "kind": "active participle mālik",
+      "count": 3
+     }
+    },
+    {
+     "loc": "1:4:2",
+     "ar": "يَوْمِ",
+     "en": "(of the) Day",
+     "ur": "دن کا",
+     "translit": "yawmi",
+     "morph": "N – genitive masculine noun → Day of Resurrection",
+     "audio": "001_004_002.mp3",
+     "root": "ywm",
+     "lemma": {
+      "ar": "يَوْم",
+      "kind": "nominal yawm",
+      "count": 405
+     }
+    },
+    {
+     "loc": "1:4:3",
+     "ar": "ٱلدِّينِ",
+     "en": "(of the) Judgment",
+     "ur": "بدلے کے",
+     "translit": "l-dīni",
+     "morph": "N – genitive masculine noun",
+     "audio": "001_004_003.mp3",
+     "root": "dyn",
+     "lemma": {
+      "ar": "دِين",
+      "kind": "noun dīn",
+      "count": 92
+     }
+    }
+   ]
+  },
+  {
+   "key": "1:5",
+   "ayah": 5,
+   "text": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+   "words": [
+    {
+     "loc": "1:5:1",
+     "ar": "إِيَّاكَ",
+     "en": "You Alone",
+     "ur": "صرف تیری",
+     "translit": "iyyāka",
+     "morph": "PRON – 2nd person masculine singular personal pronoun → Allah",
+     "audio": "001_005_001.mp3",
+     "root": null,
+     "lemma": null
+    },
+    {
+     "loc": "1:5:2",
+     "ar": "نَعْبُدُ",
+     "en": "we worship",
+     "ur": "ہم عبادت کرتے ہیں",
+     "translit": "naʿbudu",
+     "morph": "V – 1st person plural imperfect verb",
+     "audio": "001_005_002.mp3",
+     "root": "Ebd",
+     "lemma": {
+      "ar": "عَبَدَ",
+      "kind": "form I verb ʿabada",
+      "count": 122
+     }
+    },
+    {
+     "loc": "1:5:3",
+     "ar": "وَإِيَّاكَ",
+     "en": "and You Alone",
+     "ur": "اور صرف تجھ سے",
+     "translit": "wa-iyyāka",
+     "morph": "CONJ – prefixed conjunction wa (and) PRON – 2nd person masculine singular personal pronoun → Allah",
+     "audio": "001_005_003.mp3",
+     "root": null,
+     "lemma": null
+    },
+    {
+     "loc": "1:5:4",
+     "ar": "نَسْتَعِينُ",
+     "en": "we ask for help",
+     "ur": "ہم مدد چاہتے ہیں",
+     "translit": "nastaʿīnu",
+     "morph": "V – 1st person plural (form X) imperfect verb",
+     "audio": "001_005_004.mp3",
+     "root": "Ewn",
+     "lemma": {
+      "ar": "ٱسْتَعِينُ",
+      "kind": "form X verb is'taʿīnu",
+      "count": 4
+     }
+    }
+   ]
+  },
+  {
+   "key": "1:6",
+   "ayah": 6,
+   "text": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+   "words": [
+    {
+     "loc": "1:6:1",
+     "ar": "ٱهْدِنَا",
+     "en": "Guide us",
+     "ur": "دکھا ہم کو",
+     "translit": "ih'dinā",
+     "morph": "V – 2nd person masculine singular imperative verb PRON – 1st person plural object pronoun PRON – implicit subject pronoun → Allah",
+     "audio": "001_006_001.mp3",
+     "root": "hdy",
+     "lemma": {
+      "ar": "هَدَى",
+      "kind": "form I verb hadā",
+      "count": 144
+     }
+    },
+    {
+     "loc": "1:6:2",
+     "ar": "ٱلصِّرَٰطَ",
+     "en": "(to) the path",
+     "ur": "راستہ",
+     "translit": "l-ṣirāṭa",
+     "morph": "N – accusative masculine noun",
+     "audio": "001_006_002.mp3",
+     "root": "SrT",
+     "lemma": {
+      "ar": "صِرَٰط",
+      "kind": "noun ṣirāṭ",
+      "count": 45
+     }
+    },
+    {
+     "loc": "1:6:3",
+     "ar": "ٱلْمُسْتَقِيمَ",
+     "en": "the straight",
+     "ur": "سیدھا",
+     "translit": "l-mus'taqīma",
+     "morph": "ADJ – accusative masculine (form X) active participle",
+     "audio": "001_006_003.mp3",
+     "root": "qwm",
+     "lemma": {
+      "ar": "مُّسْتَقِيم",
+      "kind": "form X active participle mus'taqīm",
+      "count": 37
+     }
+    }
+   ]
+  },
+  {
+   "key": "1:7",
+   "ayah": 7,
+   "text": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+   "words": [
+    {
+     "loc": "1:7:1",
+     "ar": "صِرَٰطَ",
+     "en": "(The) path",
+     "ur": "راستہ",
+     "translit": "ṣirāṭa",
+     "morph": "N – accusative masculine noun",
+     "audio": "001_007_001.mp3",
+     "root": "SrT",
+     "lemma": {
+      "ar": "صِرَٰط",
+      "kind": "noun ṣirāṭ",
+      "count": 45
+     }
+    },
+    {
+     "loc": "1:7:2",
+     "ar": "ٱلَّذِينَ",
+     "en": "(of) those",
+     "ur": "ان لوگوں کا",
+     "translit": "alladhīna",
+     "morph": "REL – masculine plural relative pronoun",
+     "audio": "001_007_002.mp3",
+     "root": null,
+     "lemma": {
+      "ar": "ٱلَّذِى",
+      "kind": "nominal",
+      "count": 1464
+     }
+    },
+    {
+     "loc": "1:7:3",
+     "ar": "أَنْعَمْتَ",
+     "en": "You have bestowed (Your) Favors",
+     "ur": "انعام کیا تو نے",
+     "translit": "anʿamta",
+     "morph": "V – 2nd person masculine singular (form IV) perfect verb PRON – subject pronoun → Allah",
+     "audio": "001_007_003.mp3",
+     "root": "nEm",
+     "lemma": {
+      "ar": "أَنْعَمَ",
+      "kind": "form IV verb anʿama",
+      "count": 17
+     }
+    },
+    {
+     "loc": "1:7:4",
+     "ar": "عَلَيْهِمْ",
+     "en": "on them",
+     "ur": "اوپر ان کے",
+     "translit": "ʿalayhim",
+     "morph": "P – preposition PRON – 3rd person masculine plural object pronoun",
+     "audio": "001_007_004.mp3",
+     "root": null,
+     "lemma": null
+    },
+    {
+     "loc": "1:7:5",
+     "ar": "غَيْرِ",
+     "en": "not (of)",
+     "ur": "نہ ان (لوگوں) کا",
+     "translit": "ghayri",
+     "morph": "N – genitive masculine noun",
+     "audio": "001_007_005.mp3",
+     "root": "gyr",
+     "lemma": {
+      "ar": "غَيْر",
+      "kind": "nominal ghayr",
+      "count": 147
+     }
+    },
+    {
+     "loc": "1:7:6",
+     "ar": "ٱلْمَغْضُوبِ",
+     "en": "those who earned (Your) wrath",
+     "ur": "غضب کیا گیا",
+     "translit": "l-maghḍūbi",
+     "morph": "N – genitive masculine passive participle",
+     "audio": "001_007_006.mp3",
+     "root": "gDb",
+     "lemma": {
+      "ar": "مَغْضُوب",
+      "kind": "passive participle maghḍūb",
+      "count": 1
+     }
+    },
+    {
+     "loc": "1:7:7",
+     "ar": "عَلَيْهِمْ",
+     "en": "on themselves",
+     "ur": "اوپر ان کے",
+     "translit": "ʿalayhim",
+     "morph": "P – preposition PRON – 3rd person masculine plural object pronoun",
+     "audio": "001_007_007.mp3",
+     "root": null,
+     "lemma": null
+    },
+    {
+     "loc": "1:7:8",
+     "ar": "وَلَا",
+     "en": "and not",
+     "ur": "اور نہ",
+     "translit": "walā",
+     "morph": "CONJ – prefixed conjunction wa (and) NEG – negative particle",
+     "audio": "001_007_008.mp3",
+     "root": null,
+     "lemma": null
+    },
+    {
+     "loc": "1:7:9",
+     "ar": "ٱلضَّآلِّينَ",
+     "en": "(of) those who go astray",
+     "ur": "ان (لوگوں) کا جو گمراہ ہیں / گم کردہ راہ ہیں",
+     "translit": "l-ḍālīna",
+     "morph": "N – genitive masculine plural active participle",
+     "audio": "001_007_009.mp3",
+     "root": "Dll",
+     "lemma": {
+      "ar": "ضَآلّ",
+      "kind": "active participle ḍāll",
+      "count": 14
+     }
+    }
+   ]
+  }
+ ],
+ "roots": {
+  "smw": {
+   "letters": "س م و",
+   "count": 381,
+   "lemmas": [
+    {
+     "ar": "سَمَّىٰ",
+     "kind": "form II verb sammā",
+     "count": 8,
+     "example": {
+      "loc": "3:36:16",
+      "ar": "سَمَّيْتُهَا",
+      "gloss": "[I] (have) named her",
+      "translit": "sammaytuhā"
+     }
+    },
+    {
+     "ar": "ٱسْم",
+     "kind": "noun is'm",
+     "count": 39,
+     "example": {
+      "loc": "1:1:1",
+      "ar": "بِسْمِ",
+      "gloss": "In (the) name",
+      "translit": "bis'mi"
+     }
+    },
+    {
+     "ar": "سَمَآء",
+     "kind": "noun samā",
+     "count": 310,
+     "example": {
+      "loc": "2:19:4",
+      "ar": "ٱلسَّمَآءِ",
+      "gloss": "the sky",
+      "translit": "l-samāi"
+     }
+    },
+    {
+     "ar": "سَمِيّ",
+     "kind": "noun samiyy",
+     "count": 2,
+     "example": {
+      "loc": "19:7:12",
+      "ar": "سَمِيًّا",
+      "gloss": "(this) name",
+      "translit": "samiyyan"
+     }
+    },
+    {
+     "ar": "تَسْمِيَة",
+     "kind": "form II verbal noun tasmiyat",
+     "count": 1,
+     "example": {
+      "loc": "53:27:8",
+      "ar": "تَسْمِيَةَ",
+      "gloss": "name(s)",
+      "translit": "tasmiyata"
+     }
+    },
+    {
+     "ar": "مُّسَمًّى",
+     "kind": "form II passive participle musamman",
+     "count": 21,
+     "example": {
+      "loc": "11:3:12",
+      "ar": "مُّسَمًّى",
+      "gloss": "appointed",
+      "translit": "musamman"
+     }
+    }
+   ]
+  },
+  "Alh": {
+   "letters": "أ ل ه",
+   "count": 2851,
+   "lemmas": [
+    {
+     "ar": "إِلَٰه",
+     "kind": "noun ilāh",
+     "count": 147,
+     "example": {
+      "loc": "2:133:17",
+      "ar": "إِلَـٰهَكَ",
+      "gloss": "your God",
+      "translit": "ilāhaka"
+     }
+    },
+    {
+     "ar": "ٱللَّه",
+     "kind": "proper noun allah",
+     "count": 2699,
+     "example": {
+      "loc": "1:1:2",
+      "ar": "ٱللَّهِ",
+      "gloss": "(of) Allah",
+      "translit": "l-lahi"
+     }
+    },
+    {
+     "ar": "ٱللَّهُمَّ",
+     "kind": "form of address allahumma",
+     "count": 5,
+     "example": {
+      "loc": "3:26:2",
+      "ar": "ٱللَّهُمَّ",
+      "gloss": "O Allah",
+      "translit": "l-lahuma"
+     }
+    }
+   ]
+  },
+  "rHm": {
+   "letters": "ر ح م",
+   "count": 339,
+   "lemmas": [
+    {
+     "ar": "رَّحِمَ",
+     "kind": "form I verb raḥima",
+     "count": 28,
+     "example": {
+      "loc": "2:286:43",
+      "ar": "وَٱرْحَمْنَآ",
+      "gloss": "and have mercy on us",
+      "translit": "wa-ir'ḥamnā"
+     }
+    },
+    {
+     "ar": "أَرْحَام",
+     "kind": "noun arḥām",
+     "count": 12,
+     "example": {
+      "loc": "2:228:15",
+      "ar": "أَرْحَامِهِنَّ",
+      "gloss": "their wombs",
+      "translit": "arḥāmihinna"
+     }
+    },
+    {
+     "ar": "أَرْحَم",
+     "kind": "noun arḥam",
+     "count": 4,
+     "example": {
+      "loc": "7:151:10",
+      "ar": "أَرْحَمُ",
+      "gloss": "(are) the Most Merciful",
+      "translit": "arḥamu"
+     }
+    },
+    {
+     "ar": "رُحْم",
+     "kind": "noun ruḥ'm",
+     "count": 1,
+     "example": {
+      "loc": "18:81:9",
+      "ar": "رُحْمًا",
+      "gloss": "(in) affection",
+      "translit": "ruḥ'man"
+     }
+    },
+    {
+     "ar": "رَّحْمَٰن",
+     "kind": "nominal raḥmān",
+     "count": 57,
+     "example": {
+      "loc": "2:163:8",
+      "ar": "ٱلرَّحْمَـٰنُ",
+      "gloss": "the Most Gracious",
+      "translit": "l-raḥmānu"
+     }
+    },
+    {
+     "ar": "رَحْمَة",
+     "kind": "noun raḥmat",
+     "count": 114,
+     "example": {
+      "loc": "2:64:10",
+      "ar": "وَرَحْمَتُهُۥ",
+      "gloss": "and His Mercy",
+      "translit": "waraḥmatuhu"
+     }
+    },
+    {
+     "ar": "رَّحِيم",
+     "kind": "nominal raḥīm",
+     "count": 116,
+     "example": {
+      "loc": "1:1:4",
+      "ar": "ٱلرَّحِيمِ",
+      "gloss": "the Most Merciful",
+      "translit": "l-raḥīmi"
+     }
+    },
+    {
+     "ar": "مَرْحَمَة",
+     "kind": "noun marḥamat",
+     "count": 1,
+     "example": {
+      "loc": "90:17:9",
+      "ar": "بِٱلْمَرْحَمَةِ",
+      "gloss": "to compassion",
+      "translit": "bil-marḥamati"
+     }
+    },
+    {
+     "ar": "رَّٰحِمِين",
+     "kind": "active participle rāḥimīn",
+     "count": 6,
+     "example": {
+      "loc": "7:151:11",
+      "ar": "ٱلرَّٰحِمِينَ",
+      "gloss": "(of) the merciful",
+      "translit": "l-rāḥimīna"
+     }
+    }
+   ]
+  },
+  "Hmd": {
+   "letters": "ح م د",
+   "count": 63,
+   "lemmas": [
+    {
+     "ar": "يُحْمَدُ",
+     "kind": "form I verb yuḥ'madu",
+     "count": 1,
+     "example": {
+      "loc": "3:188:9",
+      "ar": "يُحْمَدُوا۟",
+      "gloss": "they be praised",
+      "translit": "yuḥ'madū"
+     }
+    },
+    {
+     "ar": "حَمْد",
+     "kind": "noun ḥamd",
+     "count": 43,
+     "example": {
+      "loc": "1:2:1",
+      "ar": "ٱلْحَمْدُ",
+      "gloss": "All praises and thanks",
+      "translit": "al-ḥamdu"
+     }
+    },
+    {
+     "ar": "حَمِيد",
+     "kind": "nominal ḥamīd",
+     "count": 17,
+     "example": {
+      "loc": "2:267:29",
+      "ar": "حَمِيدٌ",
+      "gloss": "Praiseworthy",
+      "translit": "ḥamīdun"
+     }
+    },
+    {
+     "ar": "حَٰمِدُون",
+     "kind": "active participle ḥāmidūn",
+     "count": 1,
+     "example": {
+      "loc": "9:112:3",
+      "ar": "ٱلْحَـٰمِدُونَ",
+      "gloss": "those who praise",
+      "translit": "l-ḥāmidūna"
+     }
+    },
+    {
+     "ar": "مَّحْمُود",
+     "kind": "passive participle maḥmūd",
+     "count": 1,
+     "example": {
+      "loc": "17:79:12",
+      "ar": "مَّحْمُودًا",
+      "gloss": "praiseworthy",
+      "translit": "maḥmūdan"
+     }
+    }
+   ]
+  },
+  "rbb": {
+   "letters": "ر ب ب",
+   "count": 980,
+   "lemmas": [
+    {
+     "ar": "رَبّ",
+     "kind": "noun rabb",
+     "count": 975,
+     "example": {
+      "loc": "1:2:3",
+      "ar": "رَبِّ",
+      "gloss": "the Lord",
+      "translit": "rabbi"
+     }
+    },
+    {
+     "ar": "رَبَآئِب",
+     "kind": "noun rabāib",
+     "count": 1,
+     "example": {
+      "loc": "4:23:20",
+      "ar": "وَرَبَـٰٓئِبُكُمُ",
+      "gloss": "and your step daughters",
+      "translit": "warabāibukumu"
+     }
+    },
+    {
+     "ar": "رَبَّٰنِيِّن",
+     "kind": "noun rabbāniyyin",
+     "count": 3,
+     "example": {
+      "loc": "3:79:21",
+      "ar": "رَبَّـٰنِيِّـۧنَ",
+      "gloss": "worshippers of the Lord",
+      "translit": "rabbāniyyīna"
+     }
+    },
+    {
+     "ar": "رِبِّيُّون",
+     "kind": "noun ribbiyyūn",
+     "count": 1,
+     "example": {
+      "loc": "3:146:6",
+      "ar": "رِبِّيُّونَ",
+      "gloss": "(were) religious scholars",
+      "translit": "ribbiyyūna"
+     }
+    }
+   ]
+  },
+  "Elm": {
+   "letters": "ع ل م",
+   "count": 854,
+   "lemmas": [
+    {
+     "ar": "عَلِمَ",
+     "kind": "form I verb ʿalima",
+     "count": 382,
+     "example": {
+      "loc": "2:13:19",
+      "ar": "يَعْلَمُونَ",
+      "gloss": "they know",
+      "translit": "yaʿlamūna"
+     }
+    },
+    {
+     "ar": "عَلَّمَ",
+     "kind": "form II verb ʿallama",
+     "count": 41,
+     "example": {
+      "loc": "2:31:1",
+      "ar": "وَعَلَّمَ",
+      "gloss": "And He taught",
+      "translit": "waʿallama"
+     }
+    },
+    {
+     "ar": "يَتَعَلَّمُ",
+     "kind": "form V verb yataʿallamu",
+     "count": 2,
+     "example": {
+      "loc": "2:102:35",
+      "ar": "فَيَتَعَلَّمُونَ",
+      "gloss": "But they learn",
+      "translit": "fayataʿallamūna"
+     }
+    },
+    {
+     "ar": "أَعْلَٰم",
+     "kind": "noun aʿlām",
+     "count": 2,
+     "example": {
+      "loc": "42:32:6",
+      "ar": "كَٱلْأَعْلَـٰمِ",
+      "gloss": "like [the] mountains",
+      "translit": "kal-aʿlāmi"
+     }
+    },
+    {
+     "ar": "أَعْلَم",
+     "kind": "nominal aʿlam",
+     "count": 49,
+     "example": {
+      "loc": "2:140:15",
+      "ar": "أَعْلَمُ",
+      "gloss": "better knowing",
+      "translit": "aʿlamu"
+     }
+    },
+    {
+     "ar": "عَٰلَمِين",
+     "kind": "noun ʿālamīn",
+     "count": 73,
+     "example": {
+      "loc": "1:2:4",
+      "ar": "ٱلْعَـٰلَمِينَ",
+      "gloss": "of the universe",
+      "translit": "l-ʿālamīna"
+     }
+    },
+    {
+     "ar": "عَلَّٰم",
+     "kind": "nominal ʿallām",
+     "count": 4,
+     "example": {
+      "loc": "5:109:14",
+      "ar": "عَلَّـٰمُ",
+      "gloss": "(are the) Knower",
+      "translit": "ʿallāmu"
+     }
+    },
+    {
+     "ar": "عَلَٰمَٰت",
+     "kind": "noun ʿalāmāt",
+     "count": 1,
+     "example": {
+      "loc": "16:16:1",
+      "ar": "وَعَلَـٰمَـٰتٍ",
+      "gloss": "And landmarks",
+      "translit": "waʿalāmātin"
+     }
+    },
+    {
+     "ar": "عِلْم",
+     "kind": "noun ʿil'm",
+     "count": 105,
+     "example": {
+      "loc": "2:32:4",
+      "ar": "عِلْمَ",
+      "gloss": "knowledge",
+      "translit": "ʿil'ma"
+     }
+    },
+    {
+     "ar": "عَلِيم",
+     "kind": "nominal ʿalīm",
+     "count": 163,
+     "example": {
+      "loc": "2:115:12",
+      "ar": "عَلِيمٌ",
+      "gloss": "All-Knowing",
+      "translit": "ʿalīmun"
+     }
+    },
+    {
+     "ar": "مَّعْلُومَٰت",
+     "kind": "adjective maʿlūmāt",
+     "count": 2,
+     "example": {
+      "loc": "2:197:3",
+      "ar": "مَّعْلُومَـٰتٌ",
+      "gloss": "well known",
+      "translit": "maʿlūmātun"
+     }
+    },
+    {
+     "ar": "عَٰلِم",
+     "kind": "active participle ʿālim",
+     "count": 18,
+     "example": {
+      "loc": "6:73:19",
+      "ar": "عَـٰلِمُ",
+      "gloss": "(He is) All-Knower",
+      "translit": "ʿālimu"
+     }
+    },
+    {
+     "ar": "مَّعْلُوم",
+     "kind": "passive participle maʿlūm",
+     "count": 11,
+     "example": {
+      "loc": "15:4:8",
+      "ar": "مَّعْلُومٌ",
+      "gloss": "known",
+      "translit": "maʿlūmun"
+     }
+    },
+    {
+     "ar": "مُعَلَّم",
+     "kind": "form II passive participle muʿallam",
+     "count": 1,
+     "example": {
+      "loc": "44:14:5",
+      "ar": "مُعَلَّمٌ",
+      "gloss": "One taught",
+      "translit": "muʿallamun"
+     }
+    }
+   ]
+  },
+  "mlk": {
+   "letters": "م ل ك",
+   "count": 206,
+   "lemmas": [
+    {
+     "ar": "مَلَكَتْ",
+     "kind": "form I verb malakat",
+     "count": 44,
+     "example": {
+      "loc": "4:3:23",
+      "ar": "مَلَكَتْ",
+      "gloss": "possesses",
+      "translit": "malakat"
+     }
+    },
+    {
+     "ar": "مَٰلِك",
+     "kind": "proper noun mālik",
+     "count": 1,
+     "example": {
+      "loc": "43:77:2",
+      "ar": "يَـٰمَـٰلِكُ",
+      "gloss": "O Malik",
+      "translit": "yāmāliku"
+     }
+    },
+    {
+     "ar": "مَلِك",
+     "kind": "nominal malik",
+     "count": 15,
+     "example": {
+      "loc": "2:246:17",
+      "ar": "مَلِكًا",
+      "gloss": "a king",
+      "translit": "malikan"
+     }
+    },
+    {
+     "ar": "مَلْك",
+     "kind": "noun malk",
+     "count": 1,
+     "example": {
+      "loc": "20:87:5",
+      "ar": "بِمَلْكِنَا",
+      "gloss": "by our will",
+      "translit": "bimalkinā"
+     }
+    },
+    {
+     "ar": "مُلْك",
+     "kind": "noun mul'k",
+     "count": 48,
+     "example": {
+      "loc": "2:102:6",
+      "ar": "مُلْكِ",
+      "gloss": "(the) kingdom",
+      "translit": "mul'ki"
+     }
+    },
+    {
+     "ar": "مَلَك",
+     "kind": "noun malak",
+     "count": 88,
+     "example": {
+      "loc": "2:30:4",
+      "ar": "لِلْمَلَـٰٓئِكَةِ",
+      "gloss": "to the angels",
+      "translit": "lil'malāikati"
+     }
+    },
+    {
+     "ar": "مَلَكُوت",
+     "kind": "noun malakūt",
+     "count": 4,
+     "example": {
+      "loc": "6:75:4",
+      "ar": "مَلَكُوتَ",
+      "gloss": "the kingdom",
+      "translit": "malakūta"
+     }
+    },
+    {
+     "ar": "مَلِيك",
+     "kind": "noun malīk",
+     "count": 1,
+     "example": {
+      "loc": "54:55:5",
+      "ar": "مَلِيكٍ",
+      "gloss": "a King",
+      "translit": "malīkin"
+     }
+    },
+    {
+     "ar": "مَٰلِك",
+     "kind": "active participle mālik",
+     "count": 3,
+     "example": {
+      "loc": "1:4:1",
+      "ar": "مَـٰلِكِ",
+      "gloss": "(The) Master",
+      "translit": "māliki"
+     }
+    },
+    {
+     "ar": "مَّمْلُوك",
+     "kind": "passive participle mamlūk",
+     "count": 1,
+     "example": {
+      "loc": "16:75:5",
+      "ar": "مَّمْلُوكًا",
+      "gloss": "(who is) owned",
+      "translit": "mamlūkan"
+     }
+    }
+   ]
+  },
+  "ywm": {
+   "letters": "ي و م",
+   "count": 405,
+   "lemmas": [
+    {
+     "ar": "يَوْم",
+     "kind": "nominal yawm",
+     "count": 405,
+     "example": {
+      "loc": "1:4:2",
+      "ar": "يَوْمِ",
+      "gloss": "(of the) Day",
+      "translit": "yawmi"
+     }
+    }
+   ]
+  },
+  "dyn": {
+   "letters": "د ي ن",
+   "count": 101,
+   "lemmas": [
+    {
+     "ar": "يَدِينُ",
+     "kind": "form I verb yadīnu",
+     "count": 1,
+     "example": {
+      "loc": "9:29:16",
+      "ar": "يَدِينُونَ",
+      "gloss": "they acknowledge",
+      "translit": "yadīnūna"
+     }
+    },
+    {
+     "ar": "تَدَايَن",
+     "kind": "form VI verb tadāyan",
+     "count": 1,
+     "example": {
+      "loc": "2:282:5",
+      "ar": "تَدَايَنتُم",
+      "gloss": "you contract with one another",
+      "translit": "tadāyantum"
+     }
+    },
+    {
+     "ar": "دِين",
+     "kind": "noun dīn",
+     "count": 92,
+     "example": {
+      "loc": "1:4:3",
+      "ar": "ٱلدِّينِ",
+      "gloss": "(of the) Judgment",
+      "translit": "l-dīni"
+     }
+    },
+    {
+     "ar": "دَيْن",
+     "kind": "noun dayn",
+     "count": 5,
+     "example": {
+      "loc": "2:282:6",
+      "ar": "بِدَيْنٍ",
+      "gloss": "any debt",
+      "translit": "bidaynin"
+     }
+    },
+    {
+     "ar": "مَدِينِين",
+     "kind": "passive participle madīnīn",
+     "count": 2,
+     "example": {
+      "loc": "37:53:7",
+      "ar": "لَمَدِينُونَ",
+      "gloss": "surely be brought to Judgment",
+      "translit": "lamadīnūna"
+     }
+    }
+   ]
+  },
+  "Ebd": {
+   "letters": "ع ب د",
+   "count": 275,
+   "lemmas": [
+    {
+     "ar": "عَبَدَ",
+     "kind": "form I verb ʿabada",
+     "count": 122,
+     "example": {
+      "loc": "1:5:2",
+      "ar": "نَعْبُدُ",
+      "gloss": "we worship",
+      "translit": "naʿbudu"
+     }
+    },
+    {
+     "ar": "عَبَّد",
+     "kind": "form II verb ʿabbad",
+     "count": 1,
+     "example": {
+      "loc": "26:22:6",
+      "ar": "عَبَّدتَّ",
+      "gloss": "you have enslaved",
+      "translit": "ʿabbadtta"
+     }
+    },
+    {
+     "ar": "عَٰبِدَٰت",
+     "kind": "adjective ʿābidāt",
+     "count": 1,
+     "example": {
+      "loc": "66:5:14",
+      "ar": "عَـٰبِدَٰتٍ",
+      "gloss": "who worship",
+      "translit": "ʿābidātin"
+     }
+    },
+    {
+     "ar": "عِبَادَت",
+     "kind": "noun ʿibādat",
+     "count": 9,
+     "example": {
+      "loc": "4:172:14",
+      "ar": "عِبَادَتِهِۦ",
+      "gloss": "His worship",
+      "translit": "ʿibādatihi"
+     }
+    },
+    {
+     "ar": "عَبْد",
+     "kind": "noun ʿabd",
+     "count": 131,
+     "example": {
+      "loc": "2:23:8",
+      "ar": "عَبْدِنَا",
+      "gloss": "Our slave",
+      "translit": "ʿabdinā"
+     }
+    },
+    {
+     "ar": "عَابِد",
+     "kind": "active participle ʿābid",
+     "count": 11,
+     "example": {
+      "loc": "2:138:10",
+      "ar": "عَـٰبِدُونَ",
+      "gloss": "(are) worshippers",
+      "translit": "ʿābidūna"
+     }
+    }
+   ]
+  },
+  "Ewn": {
+   "letters": "ع و ن",
+   "count": 11,
+   "lemmas": [
+    {
+     "ar": "أَعَانَ",
+     "kind": "form IV verb aʿāna",
+     "count": 2,
+     "example": {
+      "loc": "18:95:7",
+      "ar": "فَأَعِينُونِى",
+      "gloss": "but assist me",
+      "translit": "fa-aʿīnūnī"
+     }
+    },
+    {
+     "ar": "تَعَاوَنُ",
+     "kind": "form VI verb taʿāwanu",
+     "count": 2,
+     "example": {
+      "loc": "5:2:38",
+      "ar": "وَتَعَاوَنُوا۟",
+      "gloss": "And help one another",
+      "translit": "wataʿāwanū"
+     }
+    },
+    {
+     "ar": "ٱسْتَعِينُ",
+     "kind": "form X verb is'taʿīnu",
+     "count": 4,
+     "example": {
+      "loc": "1:5:4",
+      "ar": "نَسْتَعِينُ",
+      "gloss": "we ask for help",
+      "translit": "nastaʿīnu"
+     }
+    },
+    {
+     "ar": "عَوَان",
+     "kind": "noun ʿawān",
+     "count": 1,
+     "example": {
+      "loc": "2:68:18",
+      "ar": "عَوَانٌۢ",
+      "gloss": "middle aged",
+      "translit": "ʿawānun"
+     }
+    },
+    {
+     "ar": "مُسْتَعَان",
+     "kind": "form X passive participle mus'taʿān",
+     "count": 2,
+     "example": {
+      "loc": "12:18:15",
+      "ar": "ٱلْمُسْتَعَانُ",
+      "gloss": "(is) the One sought for help",
+      "translit": "l-mus'taʿānu"
+     }
+    }
+   ]
+  },
+  "hdy": {
+   "letters": "ه د ي",
+   "count": 316,
+   "lemmas": [
+    {
+     "ar": "هَدَى",
+     "kind": "form I verb hadā",
+     "count": 144,
+     "example": {
+      "loc": "1:6:1",
+      "ar": "ٱهْدِنَا",
+      "gloss": "Guide us",
+      "translit": "ih'dinā"
+     }
+    },
+    {
+     "ar": "ٱهْتَدَىٰ",
+     "kind": "form VIII verb ih'tadā",
+     "count": 40,
+     "example": {
+      "loc": "2:53:7",
+      "ar": "تَهْتَدُونَ",
+      "gloss": "(would be) guided",
+      "translit": "tahtadūna"
+     }
+    },
+    {
+     "ar": "أَهْدَىٰ",
+     "kind": "noun ahdā",
+     "count": 7,
+     "example": {
+      "loc": "4:51:16",
+      "ar": "أَهْدَىٰ",
+      "gloss": "(are) better guided",
+      "translit": "ahdā"
+     }
+    },
+    {
+     "ar": "هُدًى",
+     "kind": "noun hudan",
+     "count": 85,
+     "example": {
+      "loc": "2:2:6",
+      "ar": "هُدًى",
+      "gloss": "a Guidance",
+      "translit": "hudan"
+     }
+    },
+    {
+     "ar": "هَدْي",
+     "kind": "noun hadī",
+     "count": 7,
+     "example": {
+      "loc": "2:196:10",
+      "ar": "ٱلْهَدْىِ",
+      "gloss": "the sacrificial animal",
+      "translit": "l-hadyi"
+     }
+    },
+    {
+     "ar": "هَدِيَّة",
+     "kind": "noun hadiyyat",
+     "count": 2,
+     "example": {
+      "loc": "27:35:4",
+      "ar": "بِهَدِيَّةٍ",
+      "gloss": "a gift",
+      "translit": "bihadiyyatin"
+     }
+    },
+    {
+     "ar": "هَاد",
+     "kind": "active participle hād",
+     "count": 7,
+     "example": {
+      "loc": "13:7:15",
+      "ar": "هَادٍ",
+      "gloss": "(is) a guide",
+      "translit": "hādin"
+     }
+    },
+    {
+     "ar": "هَادِي",
+     "kind": "active participle hādī",
+     "count": 2,
+     "example": {
+      "loc": "7:186:5",
+      "ar": "هَادِىَ",
+      "gloss": "guide",
+      "translit": "hādiya"
+     }
+    },
+    {
+     "ar": "هَٰدِى",
+     "kind": "active participle hādī",
+     "count": 1,
+     "example": {
+      "loc": "27:81:3",
+      "ar": "بِهَـٰدِى",
+      "gloss": "guide",
+      "translit": "bihādī"
+     }
+    },
+    {
+     "ar": "مُّهْتَد",
+     "kind": "form VIII active participle muh'tad",
+     "count": 3,
+     "example": {
+      "loc": "17:97:5",
+      "ar": "ٱلْمُهْتَدِ",
+      "gloss": "the guided one",
+      "translit": "l-muh'tadi"
+     }
+    },
+    {
+     "ar": "مُّهْتَدُون",
+     "kind": "form VIII active participle muh'tadūn",
+     "count": 17,
+     "example": {
+      "loc": "2:16:11",
+      "ar": "مُهْتَدِينَ",
+      "gloss": "guided-ones",
+      "translit": "muh'tadīna"
+     }
+    },
+    {
+     "ar": "مُهْتَدِى",
+     "kind": "form VIII active participle muh'tadī",
+     "count": 1,
+     "example": {
+      "loc": "7:178:5",
+      "ar": "ٱلْمُهْتَدِى",
+      "gloss": "(is) the guided one",
+      "translit": "l-muh'tadī"
+     }
+    }
+   ]
+  },
+  "SrT": {
+   "letters": "ص ر ط",
+   "count": 45,
+   "lemmas": [
+    {
+     "ar": "صِرَٰط",
+     "kind": "noun ṣirāṭ",
+     "count": 45,
+     "example": {
+      "loc": "1:6:2",
+      "ar": "ٱلصِّرَٰطَ",
+      "gloss": "(to) the path",
+      "translit": "l-ṣirāṭa"
+     }
+    }
+   ]
+  },
+  "qwm": {
+   "letters": "ق و م",
+   "count": 660,
+   "lemmas": [
+    {
+     "ar": "قَامَ",
+     "kind": "form I verb qāma",
+     "count": 33,
+     "example": {
+      "loc": "2:20:13",
+      "ar": "قَامُوا۟",
+      "gloss": "they stand (still)",
+      "translit": "qāmū"
+     }
+    },
+    {
+     "ar": "أَقَامَ",
+     "kind": "form IV verb aqāma",
+     "count": 54,
+     "example": {
+      "loc": "2:3:4",
+      "ar": "وَيُقِيمُونَ",
+      "gloss": "and establish",
+      "translit": "wayuqīmūna"
+     }
+    },
+    {
+     "ar": "ٱسْتَقَٰمُ",
+     "kind": "form X verb is'taqāmu",
+     "count": 10,
+     "example": {
+      "loc": "9:7:16",
+      "ar": "ٱسْتَقَـٰمُوا۟",
+      "gloss": "they are upright",
+      "translit": "is'taqāmū"
+     }
+    },
+    {
+     "ar": "أَقْوَم",
+     "kind": "noun aqwam",
+     "count": 4,
+     "example": {
+      "loc": "2:282:91",
+      "ar": "وَأَقْوَمُ",
+      "gloss": "and more upright",
+      "translit": "wa-aqwamu"
+     }
+    },
+    {
+     "ar": "قَوَام",
+     "kind": "noun qawām",
+     "count": 1,
+     "example": {
+      "loc": "25:67:11",
+      "ar": "قَوَامًا",
+      "gloss": "moderate",
+      "translit": "qawāman"
+     }
+    },
+    {
+     "ar": "قَوَّٰمِين",
+     "kind": "noun qawwāmīn",
+     "count": 3,
+     "example": {
+      "loc": "4:34:2",
+      "ar": "قَوَّٰمُونَ",
+      "gloss": "(are) protectors",
+      "translit": "qawwāmūna"
+     }
+    },
+    {
+     "ar": "قَوْم",
+     "kind": "noun qawm",
+     "count": 383,
+     "example": {
+      "loc": "2:54:4",
+      "ar": "لِقَوْمِهِۦ",
+      "gloss": "to his people",
+      "translit": "liqawmihi"
+     }
+    },
+    {
+     "ar": "قِيَٰمَة",
+     "kind": "noun qiyāmat",
+     "count": 70,
+     "example": {
+      "loc": "2:85:40",
+      "ar": "ٱلْقِيَـٰمَةِ",
+      "gloss": "of [the] Resurrection",
+      "translit": "l-qiyāmati"
+     }
+    },
+    {
+     "ar": "قَيِّم",
+     "kind": "adjective qayyim",
+     "count": 5,
+     "example": {
+      "loc": "9:36:21",
+      "ar": "ٱلْقَيِّمُ",
+      "gloss": "the upright",
+      "translit": "l-qayimu"
+     }
+    },
+    {
+     "ar": "قِيَم",
+     "kind": "adjective qiyam",
+     "count": 1,
+     "example": {
+      "loc": "6:161:9",
+      "ar": "قِيَمًا",
+      "gloss": "right",
+      "translit": "qiyaman"
+     }
+    },
+    {
+     "ar": "قَيِّمَة",
+     "kind": "nominal qayyimat",
+     "count": 2,
+     "example": {
+      "loc": "98:5:16",
+      "ar": "ٱلْقَيِّمَةِ",
+      "gloss": "the correct",
+      "translit": "l-qayimati"
+     }
+    },
+    {
+     "ar": "قَيُّوم",
+     "kind": "adjective qayyūm",
+     "count": 3,
+     "example": {
+      "loc": "2:255:7",
+      "ar": "ٱلْقَيُّومُ",
+      "gloss": "the Sustainer of all that exists",
+      "translit": "l-qayūmu"
+     }
+    },
+    {
+     "ar": "مَقَام",
+     "kind": "noun maqām",
+     "count": 14,
+     "example": {
+      "loc": "2:125:9",
+      "ar": "مَّقَامِ",
+      "gloss": "(the) standing place",
+      "translit": "maqāmi"
+     }
+    },
+    {
+     "ar": "قَآئِم",
+     "kind": "active participle qāim",
+     "count": 17,
+     "example": {
+      "loc": "3:18:11",
+      "ar": "قَآئِمًۢا",
+      "gloss": "standing",
+      "translit": "qāiman"
+     }
+    },
+    {
+     "ar": "قَآئِمَة",
+     "kind": "active participle qāimat",
+     "count": 5,
+     "example": {
+      "loc": "11:71:2",
+      "ar": "قَآئِمَةٌ",
+      "gloss": "(was) standing",
+      "translit": "qāimatun"
+     }
+    },
+    {
+     "ar": "تَقْوِيم",
+     "kind": "form II verbal noun taqwīm",
+     "count": 1,
+     "example": {
+      "loc": "95:4:6",
+      "ar": "تَقْوِيمٍ",
+      "gloss": "mould",
+      "translit": "taqwīmin"
+     }
+    },
+    {
+     "ar": "إِقَام",
+     "kind": "form IV verbal noun iqām",
+     "count": 2,
+     "example": {
+      "loc": "21:73:9",
+      "ar": "وَإِقَامَ",
+      "gloss": "and establishment",
+      "translit": "wa-iqāma"
+     }
+    },
+    {
+     "ar": "إِقَامَت",
+     "kind": "form IV verbal noun iqāmat",
+     "count": 1,
+     "example": {
+      "loc": "16:80:17",
+      "ar": "إِقَامَتِكُمْ",
+      "gloss": "(of) your encampment",
+      "translit": "iqāmatikum"
+     }
+    },
+    {
+     "ar": "مُّقِيم",
+     "kind": "form IV active participle muqīm",
+     "count": 10,
+     "example": {
+      "loc": "4:162:15",
+      "ar": "وَٱلْمُقِيمِينَ",
+      "gloss": "And the ones who establish",
+      "translit": "wal-muqīmīna"
+     }
+    },
+    {
+     "ar": "مُقَام",
+     "kind": "form IV passive participle muqām",
+     "count": 3,
+     "example": {
+      "loc": "25:66:4",
+      "ar": "وَمُقَامًا",
+      "gloss": "and resting place",
+      "translit": "wamuqāman"
+     }
+    },
+    {
+     "ar": "مُقَامَة",
+     "kind": "form IV passive participle muqāmat",
+     "count": 1,
+     "example": {
+      "loc": "35:35:4",
+      "ar": "ٱلْمُقَامَةِ",
+      "gloss": "(of) Eternity",
+      "translit": "l-muqāmati"
+     }
+    },
+    {
+     "ar": "مُّسْتَقِيم",
+     "kind": "form X active participle mus'taqīm",
+     "count": 37,
+     "example": {
+      "loc": "6:126:4",
+      "ar": "مُسْتَقِيمًا",
+      "gloss": "straight",
+      "translit": "mus'taqīman"
+     }
+    }
+   ]
+  },
+  "nEm": {
+   "letters": "ن ع م",
+   "count": 140,
+   "lemmas": [
+    {
+     "ar": "نِعْمَ",
+     "kind": "form I verb niʿ'ma",
+     "count": 18,
+     "example": {
+      "loc": "2:271:4",
+      "ar": "فَنِعِمَّا",
+      "gloss": "then good",
+      "translit": "faniʿimmā"
+     }
+    },
+    {
+     "ar": "نَعَّمَ",
+     "kind": "form II verb naʿʿama",
+     "count": 1,
+     "example": {
+      "loc": "89:15:8",
+      "ar": "وَنَعَّمَهُۥ",
+      "gloss": "and favors him",
+      "translit": "wanaʿʿamahu"
+     }
+    },
+    {
+     "ar": "أَنْعَمَ",
+     "kind": "form IV verb anʿama",
+     "count": 17,
+     "example": {
+      "loc": "1:7:3",
+      "ar": "أَنْعَمْتَ",
+      "gloss": "You have bestowed (Your) Favors",
+      "translit": "anʿamta"
+     }
+    },
+    {
+     "ar": "نَّعَم",
+     "kind": "noun naʿam",
+     "count": 33,
+     "example": {
+      "loc": "3:14:15",
+      "ar": "وَٱلْأَنْعَـٰمِ",
+      "gloss": "and [the] cattle",
+      "translit": "wal-anʿāmi"
+     }
+    },
+    {
+     "ar": "نَعْمَآء",
+     "kind": "noun naʿmā",
+     "count": 1,
+     "example": {
+      "loc": "11:10:3",
+      "ar": "نَعْمَآءَ",
+      "gloss": "(of) favor",
+      "translit": "naʿmāa"
+     }
+    },
+    {
+     "ar": "نَّعْمَة",
+     "kind": "noun naʿmat",
+     "count": 2,
+     "example": {
+      "loc": "44:27:1",
+      "ar": "وَنَعْمَةٍ",
+      "gloss": "And pleasant things",
+      "translit": "wanaʿmatin"
+     }
+    },
+    {
+     "ar": "نِعْمَة",
+     "kind": "noun niʿ'mat",
+     "count": 50,
+     "example": {
+      "loc": "2:40:4",
+      "ar": "نِعْمَتِىَ",
+      "gloss": "My Favor",
+      "translit": "niʿ'matiya"
+     }
+    },
+    {
+     "ar": "نَعِيم",
+     "kind": "noun naʿīm",
+     "count": 17,
+     "example": {
+      "loc": "5:65:12",
+      "ar": "ٱلنَّعِيمِ",
+      "gloss": "(of) Bliss",
+      "translit": "l-naʿīmi"
+     }
+    },
+    {
+     "ar": "نَّاعِمَة",
+     "kind": "active participle nāʿimat",
+     "count": 1,
+     "example": {
+      "loc": "88:8:3",
+      "ar": "نَّاعِمَةٌ",
+      "gloss": "(will be) joyful",
+      "translit": "nāʿimatun"
+     }
+    }
+   ]
+  },
+  "gyr": {
+   "letters": "غ ي ر",
+   "count": 154,
+   "lemmas": [
+    {
+     "ar": "يُغَيِّرُ",
+     "kind": "form II verb yughayyiru",
+     "count": 4,
+     "example": {
+      "loc": "4:119:8",
+      "ar": "فَلَيُغَيِّرُنَّ",
+      "gloss": "so they will surely change",
+      "translit": "falayughayyirunna"
+     }
+    },
+    {
+     "ar": "يَتَغَيَّرْ",
+     "kind": "form V verb yataghayyar",
+     "count": 1,
+     "example": {
+      "loc": "47:15:16",
+      "ar": "يَتَغَيَّرْ",
+      "gloss": "changes",
+      "translit": "yataghayyar"
+     }
+    },
+    {
+     "ar": "غَيْر",
+     "kind": "nominal ghayr",
+     "count": 147,
+     "example": {
+      "loc": "1:7:5",
+      "ar": "غَيْرِ",
+      "gloss": "not (of)",
+      "translit": "ghayri"
+     }
+    },
+    {
+     "ar": "مُغَيِّر",
+     "kind": "form II active participle mughayyir",
+     "count": 1,
+     "example": {
+      "loc": "8:53:6",
+      "ar": "مُغَيِّرًا",
+      "gloss": "One Who changes",
+      "translit": "mughayyiran"
+     }
+    },
+    {
+     "ar": "مُغِيرَٰت",
+     "kind": "form IV active participle mughīrāt",
+     "count": 1,
+     "example": {
+      "loc": "100:3:1",
+      "ar": "فَٱلْمُغِيرَٰتِ",
+      "gloss": "And the chargers",
+      "translit": "fal-mughīrāti"
+     }
+    }
+   ]
+  },
+  "gDb": {
+   "letters": "غ ض ب",
+   "count": 24,
+   "lemmas": [
+    {
+     "ar": "غَضِبَ",
+     "kind": "form I verb ghaḍiba",
+     "count": 6,
+     "example": {
+      "loc": "4:93:9",
+      "ar": "وَغَضِبَ",
+      "gloss": "and will fall the wrath",
+      "translit": "waghaḍiba"
+     }
+    },
+    {
+     "ar": "غَضَب",
+     "kind": "noun ghaḍab",
+     "count": 14,
+     "example": {
+      "loc": "2:61:42",
+      "ar": "بِغَضَبٍ",
+      "gloss": "wrath",
+      "translit": "bighaḍabin"
+     }
+    },
+    {
+     "ar": "غَضْبَٰن",
+     "kind": "noun ghaḍbān",
+     "count": 2,
+     "example": {
+      "loc": "7:150:6",
+      "ar": "غَضْبَـٰنَ",
+      "gloss": "angry",
+      "translit": "ghaḍbāna"
+     }
+    },
+    {
+     "ar": "مَغْضُوب",
+     "kind": "passive participle maghḍūb",
+     "count": 1,
+     "example": {
+      "loc": "1:7:6",
+      "ar": "ٱلْمَغْضُوبِ",
+      "gloss": "those who earned (Your) wrath",
+      "translit": "l-maghḍūbi"
+     }
+    },
+    {
+     "ar": "مُغَٰضِب",
+     "kind": "form III active participle mughāḍib",
+     "count": 1,
+     "example": {
+      "loc": "21:87:5",
+      "ar": "مُغَـٰضِبًا",
+      "gloss": "(while) angry",
+      "translit": "mughāḍiban"
+     }
+    }
+   ]
+  },
+  "Dll": {
+   "letters": "ض ل ل",
+   "count": 191,
+   "lemmas": [
+    {
+     "ar": "ضَلَّ",
+     "kind": "form I verb ḍalla",
+     "count": 53,
+     "example": {
+      "loc": "2:108:16",
+      "ar": "ضَلَّ",
+      "gloss": "he went astray (from)",
+      "translit": "ḍalla"
+     }
+    },
+    {
+     "ar": "أَضَلَّ",
+     "kind": "form IV verb aḍalla",
+     "count": 64,
+     "example": {
+      "loc": "2:26:29",
+      "ar": "يُضِلُّ",
+      "gloss": "He lets go astray",
+      "translit": "yuḍillu"
+     }
+    },
+    {
+     "ar": "أَضَلّ",
+     "kind": "noun aḍall",
+     "count": 9,
+     "example": {
+      "loc": "5:60:24",
+      "ar": "وَأَضَلُّ",
+      "gloss": "and farthest astray",
+      "translit": "wa-aḍallu"
+     }
+    },
+    {
+     "ar": "ضَلَٰل",
+     "kind": "noun ḍalāl",
+     "count": 38,
+     "example": {
+      "loc": "3:164:24",
+      "ar": "ضَلَـٰلٍ",
+      "gloss": "(the) error",
+      "translit": "ḍalālin"
+     }
+    },
+    {
+     "ar": "ضَلَٰلَة",
+     "kind": "noun ḍalālat",
+     "count": 9,
+     "example": {
+      "loc": "2:16:4",
+      "ar": "ٱلضَّلَـٰلَةَ",
+      "gloss": "[the] astraying",
+      "translit": "l-ḍalālata"
+     }
+    },
+    {
+     "ar": "ضَآلّ",
+     "kind": "active participle ḍāll",
+     "count": 14,
+     "example": {
+      "loc": "1:7:9",
+      "ar": "ٱلضَّآلِّينَ",
+      "gloss": "(of) those who go astray",
+      "translit": "l-ḍālīna"
+     }
+    },
+    {
+     "ar": "تَضْلِيل",
+     "kind": "form II verbal noun taḍlīl",
+     "count": 1,
+     "example": {
+      "loc": "105:2:5",
+      "ar": "تَضْلِيلٍ",
+      "gloss": "astray",
+      "translit": "taḍlīlin"
+     }
+    },
+    {
+     "ar": "مُّضِلّ",
+     "kind": "form IV active participle muḍill",
+     "count": 3,
+     "example": {
+      "loc": "18:51:12",
+      "ar": "ٱلْمُضِلِّينَ",
+      "gloss": "the misleaders",
+      "translit": "l-muḍilīna"
+     }
+    }
+   ]
+  }
+ },
+ "generatedAt": "2026-11-21T01:50:09.403Z"
+}
